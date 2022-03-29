@@ -1,0 +1,1447 @@
+module CWFB {
+
+    item pinkslip1
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 85 Ford Crown Victoria LTD,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.85vicsed,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip2
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 85 Ford Crown Victoria Wagon,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.85vicwag,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip3
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 85 Ford Crown Victoria Wagon 2,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.85vicwag2,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip4
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 79 Cadillac Brougham,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.79brougham,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip5
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Volvo 244,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.volvo244,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip6
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 71 Chevrolet Impala,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.71impala,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip7
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Honda CRX,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91crx,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip8
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 86 Zastava Yugo,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.86yugo,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip9
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 Utility,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10utility,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip10
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 Fire,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10fire,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip11
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 McCoy,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10mccoy,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip12
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 lb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10lb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip13
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 sb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10sb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip14
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 90 Dodge Ram lb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.90ramlb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip15
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 90 Dodge Ram sb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.90ramsb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip16
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet Blazer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87blazer,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip17
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet Suburban,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87suburban,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip18
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Chevrolet Astro,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.astrovan,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip19
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 65 Pontiac GTO,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.65gto,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip20
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 69 Dodge Charger,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.69charger,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip21
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 69 Dodge Charger Daytona,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.69chargerdaytona,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip22
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 73 Ford Falcon,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.73falcon,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip23
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 77 Pontiac Trans Am,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.77transam,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip24
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 70 Chevrolet Chevelle,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.70chevelle,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip25
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 70 Chevrolet El Camino,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.70elcamino,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip26
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 68 Chevrolet El Camino,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.68elcamino,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip27
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 68 Buick Wildcat,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.68wildcat,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip28
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 68 Buick Wildcat,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.68wildcatconvert,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip29
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 73 Ford Pinto,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.73pinto,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip30
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Move Urself Box Truck,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.moveurself,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip31
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Isuzu N5,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.isuzubox,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip32
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Isuzu N5 (Elec),
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.isuzuboxelec,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip33
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Isuzu N5 (Food),
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.isuzuboxfood,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip34
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Isuzu N5 McCoy,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.isuzuboxmccoy,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip35
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: M1069,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.hmmwvtr,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip36
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: M1025,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.hmmwvht,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip37
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: M35A2,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.m35a2bed,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip38
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: M35A2,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.m35a2covered,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip39
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: M49A2C,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.m35a2fuel,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip40
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: M151A2,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.m151canvas,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip41
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Fire Engine,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.firepumper,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip42
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 86 Fleetwood Bounder,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.86bounder,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip43
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Chevrolet Blazer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91blazerpd,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip44
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 85 Ford Crown Victoria LTD Sheriff,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.85vicsheriff,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip45
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 85 Ford Crown Victoria LTD,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.85vicranger,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip46
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Pursuit Special,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.pursuitspecial,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip47
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: The General Lee,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.generallee,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip48
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: The General Meh,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.generalmeh,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip49
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford B700 School Bus,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.schoolbus,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip50
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford B700 School Bus,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.schoolbusshort,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip51
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford F700 Dump Truck,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.f700dump,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip52
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford F700 Flatbed,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.f700flatbed,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip53
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford F700 Box Truck,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.f700box,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip54
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 51 Chevrolet 3100,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.51chevy3100,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip55
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 51 Chevrolet 3100 old,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.51chevy3100old,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip56
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 72 Volkswagon Beetle,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.72beetle,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip57
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 79 Datsun 280z,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.79datsun280z,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip58
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 80 Ford F350,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.80f350,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip59
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 80 Ford F350 EMS,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.80f350ambulance,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip60
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 80 Ford F350 Off,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.80f350offroad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip61
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 80 Ford F350 Quad,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.80f350quad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip62
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 83 Toyota Hilux,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.83hilux,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip63
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 83 Toyota Hilux Off,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.83hiluxoffroad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip64
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 86 Ford Econoline,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.86econoline,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip65
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 86 Ford E350 EMS,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.86econolineambulance,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip66
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 86 Ford E350 RV,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.86econolinerv,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip67
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 Off lb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10offroadlb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip68
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet C10 Off sb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87c10offroadsb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip69
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet Caprice,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87caprice,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip70
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet Caprice PD,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87capricePD,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip71
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 87 Chevrolet Blazer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.87blazeroffroad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip72
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 90 Toyota Corolla,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.90corolla,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip73
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 90 Dodge Ram Off lb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.90ramoffroadlb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip74
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 90 Dodge Ram Off sb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.90ramoffroadsb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip75
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Toyota Celica,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91celica,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip76
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Jeep Wagoneer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91wagoneer,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip77
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 92 Crown Victoria,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.92crownvic,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip78
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 92 Crown Victoria,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.92crownvicPD,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip79
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 92 Jeep Wrangler,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.92wrangler,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip80
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 92 Jeep Wrangler,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.92wrangleroffroad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip81
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 92 Jeep Wrangler  JP Ed,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.92wranglerjurassic,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip82
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 92 Jeep Wrangler,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.92wranglerranger,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip83
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 93 Ford Explorer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.93explorer,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip84
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 93 Ford Explorer JP Ed,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.93explorerjurassic,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip85
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Chevrolet Step Van,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.chevystepvan,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip86
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Chevrolet SWAT Van,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.chevystepvanswat,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip87
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford F700 Propane,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.f700propane,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip88
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Ford 7810,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.tractorford7810,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip89
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 64 Ford Mustang,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.64mustang,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip90
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Chevrolet C10 step,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.71chevyc10stepside,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip91
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 71 Chevrolet C10 lb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.71chevyc10lb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip92
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 71 Chevrolet C10 sb,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.71chevyc10sb,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip93
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Chevrolet S10,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91chevys10,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip94
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Chevrolet S10,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91chevys10ext,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip95
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Chevrolet S10 Off,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91chevys10offroad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip96
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 91 Chevrolet S10 Off Ext,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.91chevys10offroadext,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip97
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: 93 Jeep Cherokee,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.93jeepcherokee,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip98
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Chevrolet Bed,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailer51chevy,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip99
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Move Urself 7x16,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailermovingbig,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip100
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Move Urself 5x8,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailermovingmedium,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip101
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Fuel Trailer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailerfuelmedium,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip102
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Fuel Trailer (Small),
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailerfuelsmall,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip103
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Camper Trailer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailercamperscamp,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+
+
+}
