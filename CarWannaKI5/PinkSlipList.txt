@@ -1,0 +1,50 @@
+
+Item             Name                                          Vehicle
+----             ----                                          -------
+CWKI5.pinkslip1  '91 RANGE ROVER 4-door                        Base.91range
+CWKI5.pinkslip2  '91 RANGE ROVER 2-door                        Base.91range2
+CWKI5.pinkslip3  '90 Lada Niva                                 Base.90niva
+CWKI5.pinkslip4  '89 LAND ROVER Defender 110 SUV               Base.89def110
+CWKI5.pinkslip5  '89 LAND ROVER Defender 110 Offroad Pack SUV  Base.89def110op
+CWKI5.pinkslip6  '89 LAND ROVER Defender 90 SUV                Base.89def90
+CWKI5.pinkslip7  '89 LAND ROVER Defender 90 Offroad Pack SUV   Base.89def90op
+CWKI5.pinkslip8  '85 Mercedes-Benz W123 Junker                 Base.85mercJunk
+CWKI5.pinkslip9  '85 Mercedes-Benz W123 Sedan                  Base.85mercSedan
+CWKI5.pinkslip10 '85 Mercedes-Benz W123 Station Wagon          Base.85mercWagon
+CWKI5.pinkslip11 '85 Mercedes-Benz W123 Survivor Station Wagon Base.85mercWagon2
+CWKI5.pinkslip12 '67 Cadillac Gage Commando                    Base.67commando
+CWKI5.pinkslip13 '67 Cadillac Gage Police                      Base.67commandoPolice
+CWKI5.pinkslip14 '67 Cadillac Gage Commando T50                Base.67commandoT50
+CWKI5.pinkslip15 '87 TOYOTA Land Cruiser                       Base.87cruiser
+CWKI5.pinkslip16 '87 TOYOTA Land Cruiser variant 2             Base.87cruiserLights
+CWKI5.pinkslip17 '87 TOYOTA Land Cruiser with roofrack         Base.87cruiserRoofrack
+CWKI5.pinkslip18 '88 Volkswagen Golf Mk2 2-Door                Base.88golf2doorMk2
+CWKI5.pinkslip19 '88 Volkswagen Golf Mk2 4-Door                Base.88golf4doorMk2
+CWKI5.pinkslip20 '88 Volkswagen Jetta Mk2 2-Door               Base.88jetta2doorMk2
+CWKI5.pinkslip21 '88 Volkswagen Jetta Mk2 4-Door               Base.88jetta4doorMk2
+CWKI5.pinkslip22 P19A FRTR55                                   Base.86oshkoshFRTR55
+CWKI5.pinkslip23 '86 Oshkosh P19A KYFD                         Base.86oshkoshKYFD
+CWKI5.pinkslip24 '86 Oshkosh P19A USMC                         Base.86oshkoshUSMC
+CWKI5.pinkslip25 M1082 Trailer                                 Base.TrailerM1082
+CWKI5.pinkslip26 M1082 Covered Trailer                         Base.TrailerM1082tarp
+CWKI5.pinkslip27 M1095 Trailer                                 Base.TrailerM1095
+CWKI5.pinkslip28 M1095 Covered Trailer                         Base.TrailerM1095tarp
+CWKI5.pinkslip29 '82 Oshkosh M911 Truck                        Base.82oshkoshM911
+CWKI5.pinkslip30 '82 Oshkosh M911 Black                        Base.82oshkoshM911B
+CWKI5.pinkslip31 M127 Stake Trailer                            Base.TrailerM127stake
+CWKI5.pinkslip32 M128 Van Trailer                              Base.TrailerM128van
+CWKI5.pinkslip33 M129 Van Trailer                              Base.TrailerM129van
+CWKI5.pinkslip34 M747 Lowbed Trailer                           Base.TrailerM747lowbed
+CWKI5.pinkslip35 M967 Tanker Trailer                           Base.TrailerM967tanker
+CWKI5.pinkslip36 ISO Container                                 Base.isoContainer2
+CWKI5.pinkslip37 ISO Container Tank                            Base.isoContainer3tanker
+CWKI5.pinkslip38 '92 AM General M998 HMMWV                     Base.92amgeneralM998
+CWKI5.pinkslip39 '92 M101A3 Cargo Trailer                      Base.TrailerM101A3cargo
+CWKI5.pinkslip40 M12 Warthog Police                            Base.m12police
+CWKI5.pinkslip41 M12 Warthog Transport                         Base.m12transport
+CWKI5.pinkslip42 M12 Warthog                                   Base.m12warthog
+CWKI5.pinkslip43 '59 Cadillac Miller-Meteor                    Base.59meteor
+CWKI5.pinkslip44 '59 Cadillac Miller-Meteor ECTO-1             Base.ECTO1
+CWKI5.pinkslip45 '74 AM General M151A2                         Base.74amgeneralM151A2
+
+

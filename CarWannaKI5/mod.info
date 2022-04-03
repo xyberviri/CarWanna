@@ -1,0 +1,6 @@
+name=CarWanna ADDON: KI5 Car Titles
+id=CWKI5
+poster=poster.png
+icon=icon.png
+description=Adds PinkSlips for KI5's Cars
+require=CW
