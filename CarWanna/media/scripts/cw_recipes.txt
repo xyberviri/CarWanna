@@ -1,0 +1,18 @@
+module CW
+{
+    imports
+    {
+        Base
+    }
+     
+    recipe Claim Vehicle
+    {
+       pinkslip1/pinkslip2/pinkslip3/pinkslip4/pinkslip5/pinkslip6/pinkslip7/pinkslip8/pinkslip9/pinkslip10/pinkslip11/pinkslip12/pinkslip13/pinkslip14/pinkslip15/pinkslip16/pinkslip17/pinkslip18/pinkslip19/pinkslip20/pinkslip21/pinkslip22/pinkslip23/pinkslip24/pinkslip25/pinkslip26/pinkslip27/pinkslip28/pinkslip29/pinkslip30/pinkslip31/pinkslip32/pinkslip33/pinkslip34/pinkslip35/pinkslip36/pinkslip37/pinkslip38/pinkslip39/pinkslip40/pinkslip41/pinkslip42/pinkslip43/pinkslip44/pinkslip45/pinkslip46,
+       Result: Base.CarKey,
+       Time: 50.0,
+       OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
+       OnCreate:Recipe.OnCreate.CW_ClaimVehicle,
+       RemoveResultItem:True,
+    } 
+}
+
