@@ -1,0 +1,509 @@
+module CWFHQ {
+
+    item pinkslip1
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangLX,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip2
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangLXCoupe,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip3
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec  5.0L,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangLX50,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip4
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec 5.0L,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangLXCoupe50,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip5
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangLX50Custom,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip6
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec Stinger,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangSVT,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip7
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec Police,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangSSP,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip8
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec Police,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangSSPLightbar,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip9
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Caballo Fennec GT,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqFBMustangGT,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip10
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun Streetscape R6,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqR32GTR,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip11
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun Streetscape R6 Pace Car,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqR32GTRPace,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip12
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun Streetscape RT-S,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqR32GTS,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip13
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun Streetscape Sedan,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqR32Sedan,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip14
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun Streetscape R6 Touring Car,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqR32GTRTouring,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip15
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun Streetscape R6 GT,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqR32GTRN1,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip16
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Matsuda Minia,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqMX5NA,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip17
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Matsuda Minia (wink),
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqMX5NAWink,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip18
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Matsuda Minia,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqMX5NAHardtop,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip19
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Matsuda Minia Rally,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqMX5NARally,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip20
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Matsuda Minia Offroad,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqMX5NAOffroad,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip21
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun 200XV,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhq300ZXZ32,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip22
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun 200XV 2+2,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhq300ZXZ32Plus2,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip23
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun 200XV,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhq300ZXZ32Slicktop,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip24
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun 200XV Rossi Racing Custom,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhq300ZXZ32Forza,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip25
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun 200XV Tokyo Police Car,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhq300ZXZ32MC2Police,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip26
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Kiichiro Raspu,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqSupraMkIV,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip27
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Kiichiro Raspu,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqSupraMkIVSmooth,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip28
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Kiichiro Raspu OW Racing,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqSupraMkIVOWR,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip29
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin LM70 Race Car,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqGT40Gulf,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip30
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin LM70,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqGT40,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip31
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin LM70 GTLM Edition,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqGT40LM,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip32
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Iltoro Romulus,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqDiablo,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip33
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Iltoro Romulus Police Car,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqDiabloPolice,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip34
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Rallia Mesos Rally Car,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqStratosRally,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip35
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Rallia Mesos,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqStratos,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip36
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Gosun RC2400 Coupe,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.fhqonevia,		
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+
+
+}

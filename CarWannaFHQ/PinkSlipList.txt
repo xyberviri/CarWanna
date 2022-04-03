@@ -1,0 +1,41 @@
+
+Item             Name                             Vehicle
+----             ----                             -------
+CWFHQ.pinkslip1  Franklin Caballo Fennec          Base.fhqFBMustangLX
+CWFHQ.pinkslip2  Franklin Caballo Fennec          Base.fhqFBMustangLXCoupe
+CWFHQ.pinkslip3  Franklin Caballo Fennec  5.0L    Base.fhqFBMustangLX50
+CWFHQ.pinkslip4  Franklin Caballo Fennec 5.0L     Base.fhqFBMustangLXCoupe50
+CWFHQ.pinkslip5  Franklin Caballo Fennec          Base.fhqFBMustangLX50Custom
+CWFHQ.pinkslip6  Franklin Caballo Fennec Stinger  Base.fhqFBMustangSVT
+CWFHQ.pinkslip7  Franklin Caballo Fennec Police   Base.fhqFBMustangSSP
+CWFHQ.pinkslip8  Franklin Caballo Fennec Police   Base.fhqFBMustangSSPLightbar
+CWFHQ.pinkslip9  Franklin Caballo Fennec GT       Base.fhqFBMustangGT
+CWFHQ.pinkslip10 Gosun Streetscape R6             Base.fhqR32GTR
+CWFHQ.pinkslip11 Gosun Streetscape R6 Pace Car    Base.fhqR32GTRPace
+CWFHQ.pinkslip12 Gosun Streetscape RT-S           Base.fhqR32GTS
+CWFHQ.pinkslip13 Gosun Streetscape Sedan          Base.fhqR32Sedan
+CWFHQ.pinkslip14 Gosun Streetscape R6 Touring Car Base.fhqR32GTRTouring
+CWFHQ.pinkslip15 Gosun Streetscape R6 GT          Base.fhqR32GTRN1
+CWFHQ.pinkslip16 Matsuda Minia                    Base.fhqMX5NA
+CWFHQ.pinkslip17 Matsuda Minia (wink)             Base.fhqMX5NAWink
+CWFHQ.pinkslip18 Matsuda Minia                    Base.fhqMX5NAHardtop
+CWFHQ.pinkslip19 Matsuda Minia Rally              Base.fhqMX5NARally
+CWFHQ.pinkslip20 Matsuda Minia Offroad            Base.fhqMX5NAOffroad
+CWFHQ.pinkslip21 Gosun 200XV                      Base.fhq300ZXZ32
+CWFHQ.pinkslip22 Gosun 200XV 2+2                  Base.fhq300ZXZ32Plus2
+CWFHQ.pinkslip23 Gosun 200XV                      Base.fhq300ZXZ32Slicktop
+CWFHQ.pinkslip24 Gosun 200XV Rossi Racing Custom  Base.fhq300ZXZ32Forza
+CWFHQ.pinkslip25 Gosun 200XV Tokyo Police Car     Base.fhq300ZXZ32MC2Police
+CWFHQ.pinkslip26 Kiichiro Raspu                   Base.fhqSupraMkIV
+CWFHQ.pinkslip27 Kiichiro Raspu                   Base.fhqSupraMkIVSmooth
+CWFHQ.pinkslip28 Kiichiro Raspu OW Racing         Base.fhqSupraMkIVOWR
+CWFHQ.pinkslip29 Franklin LM70 Race Car           Base.fhqGT40Gulf
+CWFHQ.pinkslip30 Franklin LM70                    Base.fhqGT40
+CWFHQ.pinkslip31 Franklin LM70 GTLM Edition       Base.fhqGT40LM
+CWFHQ.pinkslip32 Iltoro Romulus                   Base.fhqDiablo
+CWFHQ.pinkslip33 Iltoro Romulus Police Car        Base.fhqDiabloPolice
+CWFHQ.pinkslip34 Rallia Mesos Rally Car           Base.fhqStratosRally
+CWFHQ.pinkslip35 Rallia Mesos                     Base.fhqStratos
+CWFHQ.pinkslip36 Gosun RC2400 Coupe               Base.fhqonevia
+
+
