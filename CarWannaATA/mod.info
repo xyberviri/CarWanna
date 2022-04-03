@@ -1,0 +1,6 @@
+name=CarWanna ADDON: Autotsar Car Titles
+id=CWATA
+poster=poster.png
+icon=icon.png
+description=Adds PinkSlips for Autotsar's Cars
+require=CW
