@@ -1,5 +1,0 @@
-name=CarWanna ADDON: Filibuster Rhymes' Used Car Titles
-id=CWFB
-poster=poster.png
-description=Adds PinkSlips for Filibuster Rhymes' Used Cars
-require=CW,FRUsedCars
