@@ -1,0 +1,6 @@
+name=CarWanna ADDON: YOUR TEMPLATE NAME
+id=YOURMODID
+poster=poster.png
+icon=icon.png
+description=Template for users to create their own vehicle definitions. 
+require=CW

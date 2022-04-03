@@ -1,0 +1,24 @@
+module YOURMODID
+{
+    imports
+    {
+        Base
+    }
+     
+    recipe Claim Vehicle
+    {
+
+    /* Add all the pinkslips you created in pinkslip file here in this 1 recipe.    */
+    /* This is the only line you need to change, make sure not to delete the comma. */
+
+       pinkslip1/pinkslip2/pinkslip3/pinkslip4, 
+
+
+       Result: Base.CarKey,
+       Time: 50.0,
+       OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
+       OnCreate:Recipe.OnCreate.CW_ClaimVehicle,
+       RemoveResultItem:True,
+    } 
+ 
+}

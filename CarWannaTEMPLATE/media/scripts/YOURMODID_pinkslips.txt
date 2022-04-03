@@ -1,0 +1,79 @@
+module YOURMODID {
+
+    /* ^REQUIRED: MAKE SURE YOU SPECIFY A MOD ID FOR YOUR TEMPLATE
+                  THIS WILL ALLOW EVERYONE TO CREATE NON CONFLICTING PINKSLIPS
+	
+                  DO NOT USE "YOURMODID"!!!
+
+    item pinkslip#                                /* REQUIRED: All of your pinkslips need to be unique, increment this number starting from 1      */
+    {
+        DisplayCategory  = CarWanna,
+        Weight	         = 0.1,
+        Type             = Normal,
+        DisplayName	 = PinkSlip: EXAMPLE,     /* REQUIRED: Change this to what ever you want the pink slip called, typically the vehicle name. */
+        Icon             = AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Van,		         /*  REQUIRED: Change this to the vehicle we want to spawn in */
+        Condition = 100,		         /*  Optional Default: random   , this value overrides the repair all of upgraded vehicles */
+        GasTank = 100,			         /*  Optional Default: random   , this is the fuel used by the vehicle */
+        HasKey = true,                           /*  Optional Default: false    , this is the setting if a key should be spawned */
+        Upgraded = false,                        /*  Optional Default: false    , this will add parts that are not normally found on the vehicle and fully repair the vehicle if condition is not set. */
+        FuelTank = 100,                          /*  Optional Default: 100      , this is for stored fuel, ie trailers, mostly Ki5.. */
+    }
+  */  
+
+
+    item pinkslip1
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin Valuline,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Van,
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip2
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Franklin All-Terrain,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.SUV,
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item pinkslip3
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Trailer,
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.Trailer,
+        Condition = 100,
+    }
+
+    item pinkslip4
+    {
+        DisplayCategory = CarWanna,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= PinkSlip: Trailer (Covered),
+        Icon	=	AutoTitle,
+        WorldStaticModel = CW.AutoTitle,
+        VehicleID = Base.TrailerCover,
+        Condition = 100,
+    }
+
+}
+
