@@ -1,0 +1,6 @@
+name=CarWanna ADDON: Wizard's Titles
+id=CWWIZ
+poster=poster.png
+icon=icon.png
+description=CarWanna Titles for Wizard Trade Mod
+require=CW

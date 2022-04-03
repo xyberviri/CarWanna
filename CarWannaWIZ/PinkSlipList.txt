@@ -1,0 +1,10 @@
+
+Item            Name              Vehicle
+----            ----              -------
+CWWIZ.pinkslip1 Flashawk (Red)    Base.Wiz_Flashhawk_Red
+CWWIZ.pinkslip2 Flashawk (Green)  Base.Wiz_Flashhawk_Green
+CWWIZ.pinkslip3 Flashawk (Blue)   Base.Wiz_Flashhawk_Blue
+CWWIZ.pinkslip4 Flashawk (Yellow) Base.Wiz_Flashhawk_Yellow
+CWWIZ.pinkslip5 Flashawk (Pink)   Base.Wiz_Flashhawk_Pink
+
+

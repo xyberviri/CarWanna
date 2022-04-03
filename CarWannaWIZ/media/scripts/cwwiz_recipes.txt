@@ -1,0 +1,17 @@
+module CWWIZ
+{
+    imports
+    {
+        Base
+    }
+        
+    recipe Claim Vehicle
+    {
+       pinkslip1/pinkslip2/pinkslip3/pinkslip4/pinkslip5,
+       Result: Base.CarKey,
+       Time: 50.0,
+       OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
+       OnCreate:Recipe.OnCreate.CW_ClaimVehicle,
+       RemoveResultItem:True,
+    } 
+}
