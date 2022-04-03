@@ -1,5 +1,0 @@
-name=CarWanna-TEMPLATE
-id=CWTEMPLATE
-poster=poster.png
-description=Template for users to create their own vehicle definitions. 
-require=CW
