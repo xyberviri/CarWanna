@@ -53,3 +53,14 @@ module CW
 
 
 ```
+
+Item paraments control the spawn conditions of the vehicle:
+```
+        VehicleID = Base.Van,		         /*  REQUIRED: Change this to the vehicle we want to spawn in */
+        Condition = 100,		         /*  Optional Default: random   , this value overrides the repair all of upgraded vehicles */
+        GasTank = 100,			         /*  Optional Default: random   , this is the fuel used by the vehicle */
+        HasKey = true,                           /*  Optional Default: false    , this is the setting if a key should be spawned */
+        Upgraded = false,                        /*  Optional Default: false    , this will add parts that are not normally found on the vehicle and fully repair the vehicle if condition is not set. */
+        FuelTank = 100,                          /*  Optional Default: 100      , this is for stored fuel, ie trailers, mostly Ki5.. */
+        
+```
