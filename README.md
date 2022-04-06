@@ -64,3 +64,8 @@ Item paraments control the spawn conditions of the vehicle:
         FuelTank = 100,                          /*  Optional Default: 100      , this is for stored fuel, ie trailers, mostly Ki5.. */
         
 ```
+
+
+https://user-images.githubusercontent.com/1403624/162005443-c79dd891-2bb7-4220-a3de-e9e5748d1420.mp4
+
+
