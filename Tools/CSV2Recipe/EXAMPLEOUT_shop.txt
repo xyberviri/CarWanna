@@ -1,0 +1,469 @@
+module Base {
+    imports
+    {
+        PinkSlip
+    }
+        
+    recipe Buy Chevalier Nyala $10
+    {
+        Money=10,
+        Result: PinkSlip.CarLights,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Nyala (Police) $10
+    {
+        Money=10,
+        Result: PinkSlip.CarLightsPolice,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Mercia Lang 4000 $10
+    {
+        Money=10,
+        Result: PinkSlip.CarLuxury,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Nyala $10
+    {
+        Money=10,
+        Result: PinkSlip.CarNormal,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Cerise Wagon $10
+    {
+        Money=10,
+        Result: PinkSlip.CarStationWagon,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Cerise Wagon 2 $10
+    {
+        Money=10,
+        Result: PinkSlip.CarStationWagon2,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Taxi $10
+    {
+        Money=10,
+        Result: PinkSlip.CarTaxi,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Taxi 2 $10
+    {
+        Money=10,
+        Result: PinkSlip.CarTaxi2,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Elite $10
+    {
+        Money=10,
+        Result: PinkSlip.ModernCar,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Primani $10
+    {
+        Money=10,
+        Result: PinkSlip.ModernCar02,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy ModernCar_ez $10
+    {
+        Money=10,
+        Result: PinkSlip.ModernCar_ez,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy ModernCar_Martin $10
+    {
+        Money=10,
+        Result: PinkSlip.ModernCar_Martin,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Rancher $10
+    {
+        Money=10,
+        Result: PinkSlip.OffRoad,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier D6 $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpTruck,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier D6 Police $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpTruckLights,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier D6 Fire $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpTruckLightsFire,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier D6 $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpTruckMccoy,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Bulldriver $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpVan,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Bulldriver Lights $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpVanLights,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Bulldriver Fire $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpVanLightsFire,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Bulldriver Police $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpVanLightsPolice,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Dash Bulldriver $10
+    {
+        Money=10,
+        Result: PinkSlip.PickUpVanMccoy,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Franklin All-Terrain $10
+    {
+        Money=10,
+        Result: PinkSlip.SUV,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Dart $10
+    {
+        Money=10,
+        Result: PinkSlip.SmallCar,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Masterson Horizon $10
+    {
+        Money=10,
+        Result: PinkSlip.SmallCar02,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Cossette $10
+    {
+        Money=10,
+        Result: PinkSlip.SportsCar,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy SportsCar_ez $10
+    {
+        Money=10,
+        Result: PinkSlip.SportsCar_ez,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Chevalier Step Van $10
+    {
+        Money=10,
+        Result: PinkSlip.StepVan,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy KY Heralds Chevalier Step Van $10
+    {
+        Money=10,
+        Result: PinkSlip.StepVan_Heralds,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Scarlet Chevalier Step Van $10
+    {
+        Money=10,
+        Result: PinkSlip.StepVan_Scarlet,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Mail Chevalier Step Van $10
+    {
+        Money=10,
+        Result: PinkSlip.StepVanMail,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Radio Chevalier Step Van $10
+    {
+        Money=10,
+        Result: PinkSlip.StepVanRadio,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Trailer $10
+    {
+        Money=10,
+        Result: PinkSlip.Trailer,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Trailer (Advert) $10
+    {
+        Money=10,
+        Result: PinkSlip.TrailerAdvert,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Trailer (Covered) $10
+    {
+        Money=10,
+        Result: PinkSlip.TrailerCover,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Franklin Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.Van,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Knox Distillery Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.Van_KnoxDisti,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Lectro Max Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.Van_LectroMax,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Mass GenFac Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.Van_MassGenFac,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Transit Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.Van_Transit,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Ambulance $10
+    {
+        Money=10,
+        Result: PinkSlip.VanAmbulance,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Radio Van $10
+    {
+        Money=10,
+        Result: PinkSlip.VanRadio,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy 3N Radio Van $10
+    {
+        Money=10,
+        Result: PinkSlip.VanRadio_3N,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Franklin Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.VanSeats,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Franklin Valuline $10
+    {
+        Money=10,
+        Result: PinkSlip.VanSpecial,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Buy Spiffo Van $10
+    {
+        Money=10,
+        Result: PinkSlip.VanSpiffo,
+        Time: 100,
+        keep HamRadio1/HamRadio2/HamRadioMakeShift,
+        Category: CarWanna,
+        CanBeDoneFromFloor:true,
+    }
+
+
+
+}
