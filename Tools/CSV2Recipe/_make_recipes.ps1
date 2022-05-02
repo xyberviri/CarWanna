@@ -5,7 +5,7 @@
 
    Typically this is a radio or something else to create the item. 
 
-   Pay carful Attention to the @" and "@ on lines 14 and 24 those need to be there.
+   Pay carful Attention to the @" and "@ on lines 14 and 25 those need to be there.
    Replace anything in between, to fit your recipe.
 #>
 function Get-Recipe
