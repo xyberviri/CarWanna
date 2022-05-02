@@ -91,6 +91,9 @@ function Recipe.OnCreate.CW_ClaimVehicle(items, result, player)
 		if modData.Upgraded then
 			requestedVehicle.upgrade = true
 		end 
+        requestedVehicle.dir = player:getDir();
+        requestedVehicle.clear = true
+        
         sendClientCommand(player, "CW", "spawnVehicle",  requestedVehicle ) 
     end
 

@@ -1,638 +1,694 @@
-module CW {
-
-    item pinkslip1
+module PinkSlip {
+    imports
+    {
+        Base
+    }
+        
+    item CarLights
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Nyala,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarLights,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Nyala,
+        VehicleID = Base.CarLights,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip2
+    item CarLightsPolice
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Nyala (Police),
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarLightsPolice,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Nyala (Police),
+        VehicleID = Base.CarLightsPolice,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip3
+    item CarLuxury
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Mercia Lang 4000,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarLuxury,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Mercia Lang 4000,
+        VehicleID = Base.CarLuxury,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip4
+    item CarNormal
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Nyala,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarNormal,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Nyala,
+        VehicleID = Base.CarNormal,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip5
+    item CarStationWagon
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Cerise Wagon,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarStationWagon,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Cerise Wagon,
+        VehicleID = Base.CarStationWagon,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip6
+    item CarStationWagon2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Cerise Wagon 2,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarStationWagon2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Cerise Wagon 2,
+        VehicleID = Base.CarStationWagon2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip7
+    item CarTaxi
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Taxi,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarTaxi,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Taxi,
+        VehicleID = Base.CarTaxi,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip8
+    item CarTaxi2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Taxi 2,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarTaxi2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Taxi 2,
+        VehicleID = Base.CarTaxi2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip9
+    item ModernCar
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Elite,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.ModernCar,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Elite,
+        VehicleID = Base.ModernCar,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip10
+    item ModernCar02
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Primani,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.ModernCar02,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Primani,
+        VehicleID = Base.ModernCar02,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip11
+    item ModernCar_ez
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: ModernCar_ez,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.ModernCar_ez,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: ModernCar_ez,
+        VehicleID = Base.ModernCar_ez,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip12
+    item ModernCar_Martin
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: ModernCar_Martin,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.ModernCar_Martin,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: ModernCar_Martin,
+        VehicleID = Base.ModernCar_Martin,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip13
+    item OffRoad
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Rancher,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.OffRoad,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Rancher,
+        VehicleID = Base.OffRoad,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip14
+    item PickUpTruck
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier D6,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpTruck,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier D6,
+        VehicleID = Base.PickUpTruck,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip15
+    item PickUpTruckLights
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier D6 Police,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpTruckLights,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier D6 Police,
+        VehicleID = Base.PickUpTruckLights,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip16
+    item PickUpTruckLightsFire
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier D6 Fire,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpTruckLightsFire,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier D6 Fire,
+        VehicleID = Base.PickUpTruckLightsFire,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip17
+    item PickUpTruckMccoy
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier D6,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpTruckMccoy,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier D6,
+        VehicleID = Base.PickUpTruckMccoy,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip18
+    item PickUpVan
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Bulldriver,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpVan,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Bulldriver,
+        VehicleID = Base.PickUpVan,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip19
+    item PickUpVanLights
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Bulldriver Lights,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpVanLights,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Bulldriver Lights,
+        VehicleID = Base.PickUpVanLights,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip20
+    item PickUpVanLightsFire
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Bulldriver Fire,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpVanLightsFire,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Bulldriver Fire,
+        VehicleID = Base.PickUpVanLightsFire,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip21
+    item PickUpVanLightsPolice
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Bulldriver Police,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpVanLightsPolice,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Bulldriver Police,
+        VehicleID = Base.PickUpVanLightsPolice,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip22
+    item PickUpVanMccoy
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Dash Bulldriver,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.PickUpVanMccoy,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dash Bulldriver,
+        VehicleID = Base.PickUpVanMccoy,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip23
+    item SUV
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Franklin All-Terrain,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.SUV,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Franklin All-Terrain,
+        VehicleID = Base.SUV,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip24
+    item SmallCar
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Dart,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.SmallCar,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Dart,
+        VehicleID = Base.SmallCar,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip25
+    item SmallCar02
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Masterson Horizon,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.SmallCar02,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Masterson Horizon,
+        VehicleID = Base.SmallCar02,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip26
+    item SportsCar
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Cossette,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.SportsCar,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Cossette,
+        VehicleID = Base.SportsCar,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip27
+    item SportsCar_ez
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: SportsCar_ez,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.SportsCar_ez,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: SportsCar_ez,
+        VehicleID = Base.SportsCar_ez,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip28
+    item StepVan
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Step Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.StepVan,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Chevalier Step Van,
+        VehicleID = Base.StepVan,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip29
+    item StepVan_Heralds
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: KY Heralds Chevalier Step Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.StepVan_Heralds,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: KY Heralds Chevalier Step Van,
+        VehicleID = Base.StepVan_Heralds,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip30
+    item StepVan_Scarlet
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Scarlet Chevalier Step Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.StepVan_Scarlet,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Scarlet Chevalier Step Van,
+        VehicleID = Base.StepVan_Scarlet,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip31
+    item StepVanMail
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Mail Chevalier Step Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.StepVanMail,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Mail Chevalier Step Van,
+        VehicleID = Base.StepVanMail,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip32
+    item StepVanRadio
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Radio Chevalier Step Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.StepVanRadio,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Radio Chevalier Step Van,
+        VehicleID = Base.StepVanRadio,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip33
+    item Trailer
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.Trailer,		
-        Condition = 100,
-    }
-
-    item pinkslip34
-    {
-        DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Trailer (Advert),
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerAdvert,		
-        Condition = 100,
-    }
-
-    item pinkslip35
-    {
-        DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Trailer (Covered),
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerCover,		
-        Condition = 100,
-    }
-
-    item pinkslip36
-    {
-        DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Franklin Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.Van,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Trailer,
+        VehicleID = Base.Trailer,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip37
+    item TrailerAdvert
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Knox Distillery Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.Van_KnoxDisti,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Trailer (Advert),
+        VehicleID = Base.TrailerAdvert,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip38
+    item TrailerCover
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Lectro Max Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.Van_LectroMax,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Trailer (Covered),
+        VehicleID = Base.TrailerCover,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip39
+    item Van
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Mass GenFac Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.Van_MassGenFac,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Franklin Valuline,
+        VehicleID = Base.Van,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip40
+    item Van_KnoxDisti
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Transit Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.Van_Transit,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Knox Distillery Valuline,
+        VehicleID = Base.Van_KnoxDisti,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip41
+    item Van_LectroMax
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Ambulance,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.VanAmbulance,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Lectro Max Valuline,
+        VehicleID = Base.Van_LectroMax,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip42
+    item Van_MassGenFac
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Radio Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.VanRadio,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Mass GenFac Valuline,
+        VehicleID = Base.Van_MassGenFac,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip43
+    item Van_Transit
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: 3N Radio Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.VanRadio_3N,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Transit Valuline,
+        VehicleID = Base.Van_Transit,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip44
+    item VanAmbulance
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Franklin Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.VanSeats,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Ambulance,
+        VehicleID = Base.VanAmbulance,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip45
+    item VanRadio
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Franklin Valuline,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.VanSpecial,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Radio Van,
+        VehicleID = Base.VanRadio,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip46
+    item VanRadio_3N
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Spiffo Van,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.VanSpiffo,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: 3N Radio Van,
+        VehicleID = Base.VanRadio_3N,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item VanSeats
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Franklin Valuline,
+        VehicleID = Base.VanSeats,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item VanSpecial
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Franklin Valuline,
+        VehicleID = Base.VanSpecial,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item VanSpiffo
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Spiffo Van,
+        VehicleID = Base.VanSpiffo,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,

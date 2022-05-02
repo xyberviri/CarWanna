@@ -74,11 +74,41 @@ end
 function Commands.spawnVehicle(player, args)
     print('[CarWanna]: Spawning Vehicle : '..args.type..' at '..player:getX()..' x '..player:getY()..' for '..player:getUsername())    
     local sq = getCell():getGridSquare(player:getX(), player:getY(), 0)
-    local car = addVehicleDebug(args.type, IsoDirections.S, nil, sq)    
+    
+    if args.dir == nil then
+        if player then
+            args.dir = player:getDir();
+        else
+            args.dir = IsoDirections.S;
+        end
+    end
+    
+    
+    
+    local car = addVehicleDebug(args.type, args.dir, nil, sq)
+    
+    --car:setDir(args.dir)
     
     --This repairs all parts on vehicles and also adds all upgrades since "missing" upgrades are parts with 0 health...    
     if args.upgrade then
         car:repair()
+    end
+    
+    --Clear out part inventories of random items that spawn in when we spawn vehicles in. 
+    if args.clear then    
+        for i = 0, car:getPartCount() -1 
+        do
+            local part = car:getPartByIndex(i)
+            --print(part:getId())
+            local container = part:getItemContainer()
+            if container then
+                --print("Is container")
+                if container:getItems():size() ~= 0 then
+                    --print("Has items")
+                    container:removeAllItems()
+                end
+            end
+        end
     end
     
     --Repair parts that actually exist on the vehicle

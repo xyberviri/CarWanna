@@ -1,13 +1,13 @@
-module CW
+module PinkSlip
 {
     imports
     {
         Base
     }
-     
+        
     recipe Claim Vehicle
     {
-       pinkslip1/pinkslip2/pinkslip3/pinkslip4/pinkslip5/pinkslip6/pinkslip7/pinkslip8/pinkslip9/pinkslip10/pinkslip11/pinkslip12/pinkslip13/pinkslip14/pinkslip15/pinkslip16/pinkslip17/pinkslip18/pinkslip19/pinkslip20/pinkslip21/pinkslip22/pinkslip23/pinkslip24/pinkslip25/pinkslip26/pinkslip27/pinkslip28/pinkslip29/pinkslip30/pinkslip31/pinkslip32/pinkslip33/pinkslip34/pinkslip35/pinkslip36/pinkslip37/pinkslip38/pinkslip39/pinkslip40/pinkslip41/pinkslip42/pinkslip43/pinkslip44/pinkslip45/pinkslip46,
+       CarLights/CarLightsPolice/CarLuxury/CarNormal/CarStationWagon/CarStationWagon2/CarTaxi/CarTaxi2/ModernCar/ModernCar02/ModernCar_ez/ModernCar_Martin/OffRoad/PickUpTruck/PickUpTruckLights/PickUpTruckLightsFire/PickUpTruckMccoy/PickUpVan/PickUpVanLights/PickUpVanLightsFire/PickUpVanLightsPolice/PickUpVanMccoy/SUV/SmallCar/SmallCar02/SportsCar/SportsCar_ez/StepVan/StepVan_Heralds/StepVan_Scarlet/StepVanMail/StepVanRadio/Trailer/TrailerAdvert/TrailerCover/Van/Van_KnoxDisti/Van_LectroMax/Van_MassGenFac/Van_Transit/VanAmbulance/VanRadio/VanRadio_3N/VanSeats/VanSpecial/VanSpiffo,
        Result: Base.CarKey,
        Time: 50.0,
        OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,

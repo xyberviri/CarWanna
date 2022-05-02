@@ -1,48 +1,51 @@
-Item          Name                          Vehicle
-----          ----                          -------
-CW.pinkslip1  Chevalier Nyala               Base.CarLights
-CW.pinkslip2  Chevalier Nyala (Police)      Base.CarLightsPolice
-CW.pinkslip3  Mercia Lang 4000              Base.CarLuxury
-CW.pinkslip4  Chevalier Nyala               Base.CarNormal
-CW.pinkslip5  Chevalier Cerise Wagon        Base.CarStationWagon
-CW.pinkslip6  Chevalier Cerise Wagon 2      Base.CarStationWagon2
-CW.pinkslip7  Taxi                          Base.CarTaxi
-CW.pinkslip8  Taxi 2                        Base.CarTaxi2
-CW.pinkslip9  Dash Elite                    Base.ModernCar
-CW.pinkslip10 Chevalier Primani             Base.ModernCar02
-CW.pinkslip11 ModernCar_ez                  Base.ModernCar_ez
-CW.pinkslip12 ModernCar_Martin              Base.ModernCar_Martin
-CW.pinkslip13 Dash Rancher                  Base.OffRoad
-CW.pinkslip14 Chevalier D6                  Base.PickUpTruck
-CW.pinkslip15 Chevalier D6 Police           Base.PickUpTruckLights
-CW.pinkslip16 Chevalier D6 Fire             Base.PickUpTruckLightsFire
-CW.pinkslip17 Chevalier D6                  Base.PickUpTruckMccoy
-CW.pinkslip18 Dash Bulldriver               Base.PickUpVan
-CW.pinkslip19 Dash Bulldriver Lights        Base.PickUpVanLights
-CW.pinkslip20 Dash Bulldriver Fire          Base.PickUpVanLightsFire
-CW.pinkslip21 Dash Bulldriver Police        Base.PickUpVanLightsPolice
-CW.pinkslip22 Dash Bulldriver               Base.PickUpVanMccoy
-CW.pinkslip23 Franklin All-Terrain          Base.SUV
-CW.pinkslip24 Chevalier Dart                Base.SmallCar
-CW.pinkslip25 Masterson Horizon             Base.SmallCar02
-CW.pinkslip26 Chevalier Cossette            Base.SportsCar
-CW.pinkslip27 SportsCar_ez                  Base.SportsCar_ez
-CW.pinkslip28 Chevalier Step Van            Base.StepVan
-CW.pinkslip29 KY Heralds Chevalier Step Van Base.StepVan_Heralds
-CW.pinkslip30 Scarlet Chevalier Step Van    Base.StepVan_Scarlet
-CW.pinkslip31 Mail Chevalier Step Van       Base.StepVanMail
-CW.pinkslip32 Radio Chevalier Step Van      Base.StepVanRadio
-CW.pinkslip33 Trailer                       Base.Trailer
-CW.pinkslip34 Trailer (Advert)              Base.TrailerAdvert
-CW.pinkslip35 Trailer (Covered)             Base.TrailerCover
-CW.pinkslip36 Franklin Valuline             Base.Van
-CW.pinkslip37 Knox Distillery Valuline      Base.Van_KnoxDisti
-CW.pinkslip38 Lectro Max Valuline           Base.Van_LectroMax
-CW.pinkslip39 Mass GenFac Valuline          Base.Van_MassGenFac
-CW.pinkslip40 Transit Valuline              Base.Van_Transit
-CW.pinkslip41 Ambulance                     Base.VanAmbulance
-CW.pinkslip42 Radio Van                     Base.VanRadio
-CW.pinkslip43 3N Radio Van                  Base.VanRadio_3N
-CW.pinkslip44 Franklin Valuline             Base.VanSeats
-CW.pinkslip45 Franklin Valuline             Base.VanSpecial
-CW.pinkslip46 Spiffo Van                    Base.VanSpiffo
+
+Item                           Name                          Vehicle
+----                           ----                          -------
+PinkSlip.CarLights             Chevalier Nyala               Base.CarLights
+PinkSlip.CarLightsPolice       Chevalier Nyala (Police)      Base.CarLightsPolice
+PinkSlip.CarLuxury             Mercia Lang 4000              Base.CarLuxury
+PinkSlip.CarNormal             Chevalier Nyala               Base.CarNormal
+PinkSlip.CarStationWagon       Chevalier Cerise Wagon        Base.CarStationWagon
+PinkSlip.CarStationWagon2      Chevalier Cerise Wagon 2      Base.CarStationWagon2
+PinkSlip.CarTaxi               Taxi                          Base.CarTaxi
+PinkSlip.CarTaxi2              Taxi 2                        Base.CarTaxi2
+PinkSlip.ModernCar             Dash Elite                    Base.ModernCar
+PinkSlip.ModernCar02           Chevalier Primani             Base.ModernCar02
+PinkSlip.ModernCar_ez          ModernCar_ez                  Base.ModernCar_ez
+PinkSlip.ModernCar_Martin      ModernCar_Martin              Base.ModernCar_Martin
+PinkSlip.OffRoad               Dash Rancher                  Base.OffRoad
+PinkSlip.PickUpTruck           Chevalier D6                  Base.PickUpTruck
+PinkSlip.PickUpTruckLights     Chevalier D6 Police           Base.PickUpTruckLights
+PinkSlip.PickUpTruckLightsFire Chevalier D6 Fire             Base.PickUpTruckLightsFire
+PinkSlip.PickUpTruckMccoy      Chevalier D6                  Base.PickUpTruckMccoy
+PinkSlip.PickUpVan             Dash Bulldriver               Base.PickUpVan
+PinkSlip.PickUpVanLights       Dash Bulldriver Lights        Base.PickUpVanLights
+PinkSlip.PickUpVanLightsFire   Dash Bulldriver Fire          Base.PickUpVanLightsFire
+PinkSlip.PickUpVanLightsPolice Dash Bulldriver Police        Base.PickUpVanLightsPolice
+PinkSlip.PickUpVanMccoy        Dash Bulldriver               Base.PickUpVanMccoy
+PinkSlip.SUV                   Franklin All-Terrain          Base.SUV
+PinkSlip.SmallCar              Chevalier Dart                Base.SmallCar
+PinkSlip.SmallCar02            Masterson Horizon             Base.SmallCar02
+PinkSlip.SportsCar             Chevalier Cossette            Base.SportsCar
+PinkSlip.SportsCar_ez          SportsCar_ez                  Base.SportsCar_ez
+PinkSlip.StepVan               Chevalier Step Van            Base.StepVan
+PinkSlip.StepVan_Heralds       KY Heralds Chevalier Step Van Base.StepVan_Heralds
+PinkSlip.StepVan_Scarlet       Scarlet Chevalier Step Van    Base.StepVan_Scarlet
+PinkSlip.StepVanMail           Mail Chevalier Step Van       Base.StepVanMail
+PinkSlip.StepVanRadio          Radio Chevalier Step Van      Base.StepVanRadio
+PinkSlip.Trailer               Trailer                       Base.Trailer
+PinkSlip.TrailerAdvert         Trailer (Advert)              Base.TrailerAdvert
+PinkSlip.TrailerCover          Trailer (Covered)             Base.TrailerCover
+PinkSlip.Van                   Franklin Valuline             Base.Van
+PinkSlip.Van_KnoxDisti         Knox Distillery Valuline      Base.Van_KnoxDisti
+PinkSlip.Van_LectroMax         Lectro Max Valuline           Base.Van_LectroMax
+PinkSlip.Van_MassGenFac        Mass GenFac Valuline          Base.Van_MassGenFac
+PinkSlip.Van_Transit           Transit Valuline              Base.Van_Transit
+PinkSlip.VanAmbulance          Ambulance                     Base.VanAmbulance
+PinkSlip.VanRadio              Radio Van                     Base.VanRadio
+PinkSlip.VanRadio_3N           3N Radio Van                  Base.VanRadio_3N
+PinkSlip.VanSeats              Franklin Valuline             Base.VanSeats
+PinkSlip.VanSpecial            Franklin Valuline             Base.VanSpecial
+PinkSlip.VanSpiffo             Spiffo Van                    Base.VanSpiffo
+
+
