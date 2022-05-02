@@ -33,13 +33,6 @@ $global:ModuleName="Base"
 $global:Category="CarWanna"
 
 
-
-
-
-
-#STUFF BELOW THIS LINE BREAKS IF YOU CHANGE THINGS WITH OUT KNOWING WHAT YOU ARE DOING
-
-#
 Function Get-FileName($initialDirectory)
 {
     [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
