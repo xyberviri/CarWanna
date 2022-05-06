@@ -1,41 +1,61 @@
 
-Item             Name                             Vehicle
-----             ----                             -------
-CWFHQ.pinkslip1  Franklin Caballo Fennec          Base.fhqFBMustangLX
-CWFHQ.pinkslip2  Franklin Caballo Fennec          Base.fhqFBMustangLXCoupe
-CWFHQ.pinkslip3  Franklin Caballo Fennec  5.0L    Base.fhqFBMustangLX50
-CWFHQ.pinkslip4  Franklin Caballo Fennec 5.0L     Base.fhqFBMustangLXCoupe50
-CWFHQ.pinkslip5  Franklin Caballo Fennec          Base.fhqFBMustangLX50Custom
-CWFHQ.pinkslip6  Franklin Caballo Fennec Stinger  Base.fhqFBMustangSVT
-CWFHQ.pinkslip7  Franklin Caballo Fennec Police   Base.fhqFBMustangSSP
-CWFHQ.pinkslip8  Franklin Caballo Fennec Police   Base.fhqFBMustangSSPLightbar
-CWFHQ.pinkslip9  Franklin Caballo Fennec GT       Base.fhqFBMustangGT
-CWFHQ.pinkslip10 Gosun Streetscape R6             Base.fhqR32GTR
-CWFHQ.pinkslip11 Gosun Streetscape R6 Pace Car    Base.fhqR32GTRPace
-CWFHQ.pinkslip12 Gosun Streetscape RT-S           Base.fhqR32GTS
-CWFHQ.pinkslip13 Gosun Streetscape Sedan          Base.fhqR32Sedan
-CWFHQ.pinkslip14 Gosun Streetscape R6 Touring Car Base.fhqR32GTRTouring
-CWFHQ.pinkslip15 Gosun Streetscape R6 GT          Base.fhqR32GTRN1
-CWFHQ.pinkslip16 Matsuda Minia                    Base.fhqMX5NA
-CWFHQ.pinkslip17 Matsuda Minia (wink)             Base.fhqMX5NAWink
-CWFHQ.pinkslip18 Matsuda Minia                    Base.fhqMX5NAHardtop
-CWFHQ.pinkslip19 Matsuda Minia Rally              Base.fhqMX5NARally
-CWFHQ.pinkslip20 Matsuda Minia Offroad            Base.fhqMX5NAOffroad
-CWFHQ.pinkslip21 Gosun 200XV                      Base.fhq300ZXZ32
-CWFHQ.pinkslip22 Gosun 200XV 2+2                  Base.fhq300ZXZ32Plus2
-CWFHQ.pinkslip23 Gosun 200XV                      Base.fhq300ZXZ32Slicktop
-CWFHQ.pinkslip24 Gosun 200XV Rossi Racing Custom  Base.fhq300ZXZ32Forza
-CWFHQ.pinkslip25 Gosun 200XV Tokyo Police Car     Base.fhq300ZXZ32MC2Police
-CWFHQ.pinkslip26 Kiichiro Raspu                   Base.fhqSupraMkIV
-CWFHQ.pinkslip27 Kiichiro Raspu                   Base.fhqSupraMkIVSmooth
-CWFHQ.pinkslip28 Kiichiro Raspu OW Racing         Base.fhqSupraMkIVOWR
-CWFHQ.pinkslip29 Franklin LM70 Race Car           Base.fhqGT40Gulf
-CWFHQ.pinkslip30 Franklin LM70                    Base.fhqGT40
-CWFHQ.pinkslip31 Franklin LM70 GTLM Edition       Base.fhqGT40LM
-CWFHQ.pinkslip32 Iltoro Romulus                   Base.fhqDiablo
-CWFHQ.pinkslip33 Iltoro Romulus Police Car        Base.fhqDiabloPolice
-CWFHQ.pinkslip34 Rallia Mesos Rally Car           Base.fhqStratosRally
-CWFHQ.pinkslip35 Rallia Mesos                     Base.fhqStratos
-CWFHQ.pinkslip36 Gosun RC2400 Coupe               Base.fhqonevia
+Item                              Name                                     Vehicle                       Cost
+----                              ----                                     -------                       ----
+PinkSlip.fhqFBMustangLX           Franklin Caballo Fennec                  Base.fhqFBMustangLX             17
+PinkSlip.fhqFBMustangLXCoupe      Franklin Caballo Fennec                  Base.fhqFBMustangLXCoupe        16
+PinkSlip.fhqFBMustangLX50         Franklin Caballo Fennec  5.0L            Base.fhqFBMustangLX50           18
+PinkSlip.fhqFBMustangLXCoupe50    Franklin Caballo Fennec 5.0L             Base.fhqFBMustangLXCoupe50      19
+PinkSlip.fhqFBMustangLX50Custom   Franklin Caballo Fennec                  Base.fhqFBMustangLX50Custom     21
+PinkSlip.fhqFBMustangSVT          Franklin Caballo Fennec Stinger          Base.fhqFBMustangSVT            23
+PinkSlip.fhqFBMustangSSP          Franklin Caballo Fennec Police           Base.fhqFBMustangSSP            25
+PinkSlip.fhqFBMustangSSPLightbar  Franklin Caballo Fennec Police           Base.fhqFBMustangSSPLightbar    26
+PinkSlip.fhqFBMustangGT           Franklin Caballo Fennec GT               Base.fhqFBMustangGT             32
+PinkSlip.fhqR32GTR                Gosun Streetscape R6                     Base.fhqR32GTR                  30
+PinkSlip.fhqR32GTRPace            Gosun Streetscape R6 Pace Car            Base.fhqR32GTRPace              40
+PinkSlip.fhqR32GTS                Gosun Streetscape RT-S                   Base.fhqR32GTS                  32
+PinkSlip.fhqR32Sedan              Gosun Streetscape Sedan                  Base.fhqR32Sedan                28
+PinkSlip.fhqR32GTRTouring         Gosun Streetscape R6 Touring Car         Base.fhqR32GTRTouring           45
+PinkSlip.fhqR32GTRN1              Gosun Streetscape R6 GT                  Base.fhqR32GTRN1                50
+PinkSlip.fhqMX5NA                 Matsuda Minia                            Base.fhqMX5NA                   21
+PinkSlip.fhqMX5NAWink             Matsuda Minia (wink)                     Base.fhqMX5NAWink               19
+PinkSlip.fhqMX5NAHardtop          Matsuda Minia                            Base.fhqMX5NAHardtop            22
+PinkSlip.fhqMX5NARally            Matsuda Minia Rally                      Base.fhqMX5NARally              24
+PinkSlip.fhqMX5NAOffroad          Matsuda Minia Offroad                    Base.fhqMX5NAOffroad            28
+PinkSlip.fhq300ZXZ32              Gosun 200XV                              Base.fhq300ZXZ32                22
+PinkSlip.fhq300ZXZ32Plus2         Gosun 200XV 2+2                          Base.fhq300ZXZ32Plus2           24
+PinkSlip.fhq300ZXZ32Slicktop      Gosun 200XV                              Base.fhq300ZXZ32Slicktop        25
+PinkSlip.fhq300ZXZ32Forza         Gosun 200XV Rossi Racing Custom          Base.fhq300ZXZ32Forza           34
+PinkSlip.fhq300ZXZ32MC2Police     Gosun 200XV Tokyo Police Car             Base.fhq300ZXZ32MC2Police       32
+PinkSlip.fhqSupraMkIV             Kiichiro Raspu                           Base.fhqSupraMkIV               75
+PinkSlip.fhqSupraMkIVSmooth       Kiichiro Raspu                           Base.fhqSupraMkIVSmooth         78
+PinkSlip.fhqSupraMkIVOWR          Kiichiro Raspu OW Racing                 Base.fhqSupraMkIVOWR            90
+PinkSlip.fhqGT40Gulf              Franklin LM70 Race Car                   Base.fhqGT40Gulf               120
+PinkSlip.fhqGT40                  Franklin LM70                            Base.fhqGT40                   500
+PinkSlip.fhqGT40LM                Franklin LM70 GTLM Edition               Base.fhqGT40LM                 600
+PinkSlip.fhqDiablo                Iltoro Romulus                           Base.fhqDiablo                 219
+PinkSlip.fhqDiabloPolice          Iltoro Romulus Police Car                Base.fhqDiabloPolice           230
+PinkSlip.fhqStratosRally          Rallia Mesos Rally Car                   Base.fhqStratosRally           475
+PinkSlip.fhqStratos               Rallia Mesos                             Base.fhqStratos                450
+PinkSlip.fhqonevia                Gosun RC2400 Coupe                       Base.fhqonevia                  34
+PinkSlip.fhqSupraMkIVOWROOTHST    Kiichiro Raspu OOTHST Racing             Base.fhqSupraMkIVOWROOTHST     120
+PinkSlip.fhqDiabloStrosek         Iltoro Romulus DE Custom                 Base.fhqDiabloStrosek          235
+PinkSlip.fhqDiabloInterceptor     Iltoro Romulus Police Interceptor        Base.fhqDiabloInterceptor      245
+PinkSlip.fhqDiabloSE30            Iltoro Romulus Anniversary Edition       Base.fhqDiabloSE30             250
+PinkSlip.fhqoneviaPreFL           Gosun RC2400 Coupe                       Base.fhqoneviaPreFL             44
+PinkSlip.fhqoneviaS               Gosun RC2400 Coupe Custom                Base.fhqoneviaS                 50
+PinkSlip.fhqoneviadrift           Gosun RC2400 Coupe Drift Custom          Base.fhqoneviadrift             60
+PinkSlip.fhqBronco                Franklin Rodeo                           Base.fhqBronco                  20
+PinkSlip.fhqBroncoHalfCab         Franklin Rodeo Pickup                    Base.fhqBroncoHalfCab           25
+PinkSlip.fhqBroncoOffroad         Franklin Rodeo Offroad                   Base.fhqBroncoOffroad           28
+PinkSlip.fhqBroncoHalfCabOffroad  Franklin Rodeo Pickup Offroad            Base.fhqBroncoHalfCabOffroad    30
+PinkSlip.fhqVWT2T1                Krichten Minibus                         Base.fhqVWT2T1                  55
+PinkSlip.fhqVWT2T1Van             Krichten Minibus Panel Van               Base.fhqVWT2T1Van               60
+PinkSlip.fhqVWT2T1Livery          Krichten Minibus Panel Van               Base.fhqVWT2T1Livery            60
+PinkSlip.fhqVWT2T1Truck           Krichten Minibus Pickup                  Base.fhqVWT2T1Truck             65
+PinkSlip.fhqVWT2T1CrewCab         Krichten Minibus Pickup                  Base.fhqVWT2T1CrewCab           65
+PinkSlip.fhqRobinMk2              Lawrence Finch                           Base.fhqRobinMk2                 6
+PinkSlip.fhqRobinMk2Stabilisers   Lawrence Finch With Stabilizers          Base.fhqRobinMk2Stabilisers      7
+PinkSlip.fhqRollbinMk2            Unstable Lawrence Finch                  Base.fhqRollbinMk2               5
+PinkSlip.fhqRollbinMk2Stabilisers Unstable Lawrence Finch With Stabilizers Base.fhqRollbinMk2Stabilisers    3
 
 

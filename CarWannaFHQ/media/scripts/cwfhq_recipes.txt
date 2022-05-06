@@ -1,4 +1,4 @@
-module CWFHQ
+module PinkSlip
 {
     imports
     {
@@ -7,7 +7,7 @@ module CWFHQ
         
     recipe Claim Vehicle
     {
-       pinkslip1/pinkslip2/pinkslip3/pinkslip4/pinkslip5/pinkslip6/pinkslip7/pinkslip8/pinkslip9/pinkslip10/pinkslip11/pinkslip12/pinkslip13/pinkslip14/pinkslip15/pinkslip16/pinkslip17/pinkslip18/pinkslip19/pinkslip20/pinkslip21/pinkslip22/pinkslip23/pinkslip24/pinkslip25/pinkslip26/pinkslip27/pinkslip28/pinkslip29/pinkslip30/pinkslip31/pinkslip32/pinkslip33/pinkslip34/pinkslip35/pinkslip36,
+       fhqFBMustangLX/fhqFBMustangLXCoupe/fhqFBMustangLX50/fhqFBMustangLXCoupe50/fhqFBMustangLX50Custom/fhqFBMustangSVT/fhqFBMustangSSP/fhqFBMustangSSPLightbar/fhqFBMustangGT/fhqR32GTR/fhqR32GTRPace/fhqR32GTS/fhqR32Sedan/fhqR32GTRTouring/fhqR32GTRN1/fhqMX5NA/fhqMX5NAWink/fhqMX5NAHardtop/fhqMX5NARally/fhqMX5NAOffroad/fhq300ZXZ32/fhq300ZXZ32Plus2/fhq300ZXZ32Slicktop/fhq300ZXZ32Forza/fhq300ZXZ32MC2Police/fhqSupraMkIV/fhqSupraMkIVSmooth/fhqSupraMkIVOWR/fhqGT40Gulf/fhqGT40/fhqGT40LM/fhqDiablo/fhqDiabloPolice/fhqStratosRally/fhqStratos/fhqonevia/fhqSupraMkIVOWROOTHST/fhqDiabloStrosek/fhqDiabloInterceptor/fhqDiabloSE30/fhqoneviaPreFL/fhqoneviaS/fhqoneviadrift/fhqBronco/fhqBroncoHalfCab/fhqBroncoOffroad/fhqBroncoHalfCabOffroad/fhqVWT2T1/fhqVWT2T1Van/fhqVWT2T1Livery/fhqVWT2T1Truck/fhqVWT2T1CrewCab/fhqRobinMk2/fhqRobinMk2Stabilisers/fhqRollbinMk2/fhqRollbinMk2Stabilisers,
        Result: Base.CarKey,
        Time: 50.0,
        OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
