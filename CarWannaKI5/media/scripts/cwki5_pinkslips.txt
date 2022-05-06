@@ -1,630 +1,694 @@
-module CWKI5 {
-
-    item pinkslip1
+module PinkSlip {
+    imports
+    {
+        Base
+    }
+        
+    item 91range
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '91 RANGE ROVER 4-door,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.91range,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '91 RANGE ROVER 4-door,
+        VehicleID = Base.91range,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip2
+    item 91range2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '91 RANGE ROVER 2-door,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.91range2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '91 RANGE ROVER 2-door,
+        VehicleID = Base.91range2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip3
+    item 90niva
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '90 Lada Niva,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.90niva,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '90 Lada Niva,
+        VehicleID = Base.90niva,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip4
+    item 89def110
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '89 LAND ROVER Defender 110 SUV,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.89def110,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '89 LAND ROVER Defender 110 SUV,
+        VehicleID = Base.89def110,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip5
+    item 89def110op
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '89 LAND ROVER Defender 110 Offroad Pack SUV,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.89def110op,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '89 LAND ROVER Defender 110 Offroad Pack SUV,
+        VehicleID = Base.89def110op,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip6
+    item 89def90
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '89 LAND ROVER Defender 90 SUV,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.89def90,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '89 LAND ROVER Defender 90 SUV,
+        VehicleID = Base.89def90,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip7
+    item 89def90op
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '89 LAND ROVER Defender 90 Offroad Pack SUV,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.89def90op,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '89 LAND ROVER Defender 90 Offroad Pack SUV,
+        VehicleID = Base.89def90op,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip8
+    item 85mercJunk
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '85 Mercedes-Benz W123 Junker,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.85mercJunk,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '85 Mercedes-Benz W123 Junker,
+        VehicleID = Base.85mercJunk,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip9
+    item 85mercSedan
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '85 Mercedes-Benz W123 Sedan,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.85mercSedan,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '85 Mercedes-Benz W123 Sedan,
+        VehicleID = Base.85mercSedan,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip10
+    item 85mercWagon
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '85 Mercedes-Benz W123 Station Wagon,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.85mercWagon,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '85 Mercedes-Benz W123 Station Wagon,
+        VehicleID = Base.85mercWagon,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip11
+    item 85mercWagon2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '85 Mercedes-Benz W123 Survivor Station Wagon,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.85mercWagon2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '85 Mercedes-Benz W123 Survivor Station Wagon,
+        VehicleID = Base.85mercWagon2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip12
+    item 67commando
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '67 Cadillac Gage Commando,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.67commando,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '67 Cadillac Gage Commando,
+        VehicleID = Base.67commando,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip13
+    item 67commandoPolice
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '67 Cadillac Gage Police,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.67commandoPolice,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '67 Cadillac Gage Police,
+        VehicleID = Base.67commandoPolice,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip14
+    item 67commandoT50
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '67 Cadillac Gage Commando T50,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.67commandoT50,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '67 Cadillac Gage Commando T50,
+        VehicleID = Base.67commandoT50,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip15
+    item 87cruiser
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '87 TOYOTA Land Cruiser,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.87cruiser,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '87 TOYOTA Land Cruiser,
+        VehicleID = Base.87cruiser,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip16
+    item 87cruiserLights
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '87 TOYOTA Land Cruiser variant 2,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.87cruiserLights,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '87 TOYOTA Land Cruiser variant 2,
+        VehicleID = Base.87cruiserLights,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip17
+    item 87cruiserRoofrack
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '87 TOYOTA Land Cruiser with roofrack,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.87cruiserRoofrack,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '87 TOYOTA Land Cruiser with roofrack,
+        VehicleID = Base.87cruiserRoofrack,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip18
+    item 88golf2doorMk2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '88 Volkswagen Golf Mk2 2-Door,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.88golf2doorMk2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '88 Volkswagen Golf Mk2 2-Door,
+        VehicleID = Base.88golf2doorMk2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip19
+    item 88golf4doorMk2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '88 Volkswagen Golf Mk2 4-Door,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.88golf4doorMk2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '88 Volkswagen Golf Mk2 4-Door,
+        VehicleID = Base.88golf4doorMk2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip20
+    item 88jetta2doorMk2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '88 Volkswagen Jetta Mk2 2-Door,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.88jetta2doorMk2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '88 Volkswagen Jetta Mk2 2-Door,
+        VehicleID = Base.88jetta2doorMk2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip21
+    item 88jetta4doorMk2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '88 Volkswagen Jetta Mk2 4-Door,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.88jetta4doorMk2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '88 Volkswagen Jetta Mk2 4-Door,
+        VehicleID = Base.88jetta4doorMk2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip22
+    item 86oshkoshFRTR55
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: P19A FRTR55,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.86oshkoshFRTR55,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: P19A FRTR55,
+        VehicleID = Base.86oshkoshFRTR55,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip23
+    item 86oshkoshKYFD
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '86 Oshkosh P19A KYFD,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.86oshkoshKYFD,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '86 Oshkosh P19A KYFD,
+        VehicleID = Base.86oshkoshKYFD,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip24
+    item 86oshkoshUSMC
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '86 Oshkosh P19A USMC,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.86oshkoshUSMC,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '86 Oshkosh P19A USMC,
+        VehicleID = Base.86oshkoshUSMC,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip25
+    item TrailerM1082
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M1082 Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM1082,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M1082 Trailer,
+        VehicleID = Base.TrailerM1082,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip26
+    item TrailerM1082tarp
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M1082 Covered Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM1082tarp,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M1082 Covered Trailer,
+        VehicleID = Base.TrailerM1082tarp,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip27
+    item TrailerM1095
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M1095 Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM1095,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M1095 Trailer,
+        VehicleID = Base.TrailerM1095,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip28
+    item TrailerM1095tarp
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M1095 Covered Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM1095tarp,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M1095 Covered Trailer,
+        VehicleID = Base.TrailerM1095tarp,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip29
+    item 82oshkoshM911
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '82 Oshkosh M911 Truck,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.82oshkoshM911,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '82 Oshkosh M911 Truck,
+        VehicleID = Base.82oshkoshM911,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip30
+    item 82oshkoshM911B
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '82 Oshkosh M911 Black,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.82oshkoshM911B,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '82 Oshkosh M911 Black,
+        VehicleID = Base.82oshkoshM911B,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip31
+    item TrailerM127stake
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M127 Stake Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM127stake,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M127 Stake Trailer,
+        VehicleID = Base.TrailerM127stake,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip32
+    item TrailerM128van
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M128 Van Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM128van,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M128 Van Trailer,
+        VehicleID = Base.TrailerM128van,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip33
+    item TrailerM129van
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M129 Van Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM129van,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M129 Van Trailer,
+        VehicleID = Base.TrailerM129van,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip34
+    item TrailerM747lowbed
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M747 Lowbed Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM747lowbed,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M747 Lowbed Trailer,
+        VehicleID = Base.TrailerM747lowbed,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip35
+    item TrailerM967tanker
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M967 Tanker Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM967tanker,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M967 Tanker Trailer,
+        VehicleID = Base.TrailerM967tanker,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip36
+    item isoContainer2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: ISO Container,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.isoContainer2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: ISO Container,
+        VehicleID = Base.isoContainer2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip37
+    item isoContainer3tanker
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: ISO Container Tank,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.isoContainer3tanker,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: ISO Container Tank,
+        VehicleID = Base.isoContainer3tanker,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip38
+    item 92amgeneralM998
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '92 AM General M998 HMMWV,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.92amgeneralM998,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '92 AM General M998 HMMWV,
+        VehicleID = Base.92amgeneralM998,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip39
+    item TrailerM101A3cargo
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '92 M101A3 Cargo Trailer,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.TrailerM101A3cargo,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '92 M101A3 Cargo Trailer,
+        VehicleID = Base.TrailerM101A3cargo,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip40
+    item m12police
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M12 Warthog Police,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.m12police,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M12 Warthog Police,
+        VehicleID = Base.m12police,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip41
+    item m12transport
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M12 Warthog Transport,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.m12transport,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M12 Warthog Transport,
+        VehicleID = Base.m12transport,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip42
+    item m12warthog
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: M12 Warthog,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.m12warthog,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: M12 Warthog,
+        VehicleID = Base.m12warthog,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip43
+    item 59meteor
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '59 Cadillac Miller-Meteor,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.59meteor,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '59 Cadillac Miller-Meteor,
+        VehicleID = Base.59meteor,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip44
+    item ECTO1
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '59 Cadillac Miller-Meteor ECTO-1,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.ECTO1,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '59 Cadillac Miller-Meteor ECTO-1,
+        VehicleID = Base.ECTO1,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,
     }
 
-    item pinkslip45
+    item 74amgeneralM151A2
     {
         DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: '74 AM General M151A2,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.74amgeneralM151A2,		
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '74 AM General M151A2,
+        VehicleID = Base.74amgeneralM151A2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item 78amgeneralM35A2
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '78 AM General M35A2,
+        VehicleID = Base.78amgeneralM35A2,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
         HasKey = true,

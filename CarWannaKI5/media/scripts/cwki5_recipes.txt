@@ -1,13 +1,13 @@
-module CWKI5
+module PinkSlip
 {
     imports
     {
         Base
     }
-     
+        
     recipe Claim Vehicle
     {
-       pinkslip1/pinkslip2/pinkslip3/pinkslip4/pinkslip5/pinkslip6/pinkslip7/pinkslip8/pinkslip9/pinkslip10/pinkslip11/pinkslip12/pinkslip13/pinkslip14/pinkslip15/pinkslip16/pinkslip17/pinkslip18/pinkslip19/pinkslip20/pinkslip21/pinkslip22/pinkslip23/pinkslip24/pinkslip25/pinkslip26/pinkslip27/pinkslip28/pinkslip29/pinkslip30/pinkslip31/pinkslip32/pinkslip33/pinkslip34/pinkslip35/pinkslip36/pinkslip37/pinkslip38/pinkslip39/pinkslip40/pinkslip41/pinkslip42/pinkslip43/pinkslip44/pinkslip45,
+       91range/91range2/90niva/89def110/89def110op/89def90/89def90op/85mercJunk/85mercSedan/85mercWagon/85mercWagon2/67commando/67commandoPolice/67commandoT50/87cruiser/87cruiserLights/87cruiserRoofrack/88golf2doorMk2/88golf4doorMk2/88jetta2doorMk2/88jetta4doorMk2/86oshkoshFRTR55/86oshkoshKYFD/86oshkoshUSMC/TrailerM1082/TrailerM1082tarp/TrailerM1095/TrailerM1095tarp/82oshkoshM911/82oshkoshM911B/TrailerM127stake/TrailerM128van/TrailerM129van/TrailerM747lowbed/TrailerM967tanker/isoContainer2/isoContainer3tanker/92amgeneralM998/TrailerM101A3cargo/m12police/m12transport/m12warthog/59meteor/ECTO1/74amgeneralM151A2/78amgeneralM35A2,
        Result: Base.CarKey,
        Time: 50.0,
        OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
