@@ -1,108 +1,108 @@
 
-Item             Name                               Vehicle
-----             ----                               -------
-CWFB.pinkslip1   85 Ford Crown Victoria LTD         Base.85vicsed
-CWFB.pinkslip2   85 Ford Crown Victoria Wagon       Base.85vicwag
-CWFB.pinkslip3   85 Ford Crown Victoria Wagon 2     Base.85vicwag2
-CWFB.pinkslip4   79 Cadillac Brougham               Base.79brougham
-CWFB.pinkslip5   Volvo 244                          Base.volvo244
-CWFB.pinkslip6   71 Chevrolet Impala                Base.71impala
-CWFB.pinkslip7   91 Honda CRX                       Base.91crx
-CWFB.pinkslip8   86 Zastava Yugo                    Base.86yugo
-CWFB.pinkslip9   87 Chevrolet C10 Utility           Base.87c10utility
-CWFB.pinkslip10  87 Chevrolet C10 Fire              Base.87c10fire
-CWFB.pinkslip11  87 Chevrolet C10 McCoy             Base.87c10mccoy
-CWFB.pinkslip12  87 Chevrolet C10 lb                Base.87c10lb
-CWFB.pinkslip13  87 Chevrolet C10 sb                Base.87c10sb
-CWFB.pinkslip14  90 Dodge Ram lb                    Base.90ramlb
-CWFB.pinkslip15  90 Dodge Ram sb                    Base.90ramsb
-CWFB.pinkslip16  87 Chevrolet Blazer                Base.87blazer
-CWFB.pinkslip17  87 Chevrolet Suburban              Base.87suburban
-CWFB.pinkslip18  Chevrolet Astro                    Base.astrovan
-CWFB.pinkslip19  65 Pontiac GTO                     Base.65gto
-CWFB.pinkslip20  69 Dodge Charger                   Base.69charger
-CWFB.pinkslip21  69 Dodge Charger Daytona           Base.69chargerdaytona
-CWFB.pinkslip22  73 Ford Falcon                     Base.73falcon
-CWFB.pinkslip23  77 Pontiac Trans Am                Base.77transam
-CWFB.pinkslip24  70 Chevrolet Chevelle              Base.70chevelle
-CWFB.pinkslip25  70 Chevrolet El Camino             Base.70elcamino
-CWFB.pinkslip26  68 Chevrolet El Camino             Base.68elcamino
-CWFB.pinkslip27  68 Buick Wildcat                   Base.68wildcat
-CWFB.pinkslip28  68 Buick Wildcat                   Base.68wildcatconvert
-CWFB.pinkslip29  73 Ford Pinto                      Base.73pinto
-CWFB.pinkslip30  Move Urself Box Truck              Base.moveurself
-CWFB.pinkslip31  Isuzu N5                           Base.isuzubox
-CWFB.pinkslip32  Isuzu N5 (Elec)                    Base.isuzuboxelec
-CWFB.pinkslip33  Isuzu N5 (Food)                    Base.isuzuboxfood
-CWFB.pinkslip34  Isuzu N5 McCoy                     Base.isuzuboxmccoy
-CWFB.pinkslip35  M1069                              Base.hmmwvtr
-CWFB.pinkslip36  M1025                              Base.hmmwvht
-CWFB.pinkslip37  M35A2                              Base.m35a2bed
-CWFB.pinkslip38  M35A2                              Base.m35a2covered
-CWFB.pinkslip39  M49A2C                             Base.m35a2fuel
-CWFB.pinkslip40  M151A2                             Base.m151canvas
-CWFB.pinkslip41  Fire Engine                        Base.firepumper
-CWFB.pinkslip42  86 Fleetwood Bounder               Base.86bounder
-CWFB.pinkslip43  91 Chevrolet Blazer                Base.91blazerpd
-CWFB.pinkslip44  85 Ford Crown Victoria LTD Sheriff Base.85vicsheriff
-CWFB.pinkslip45  85 Ford Crown Victoria LTD         Base.85vicranger
-CWFB.pinkslip46  Pursuit Special                    Base.pursuitspecial
-CWFB.pinkslip47  The General Lee                    Base.generallee
-CWFB.pinkslip48  The General Meh                    Base.generalmeh
-CWFB.pinkslip49  Ford B700 School Bus               Base.schoolbus
-CWFB.pinkslip50  Ford B700 School Bus               Base.schoolbusshort
-CWFB.pinkslip51  Ford F700 Dump Truck               Base.f700dump
-CWFB.pinkslip52  Ford F700 Flatbed                  Base.f700flatbed
-CWFB.pinkslip53  Ford F700 Box Truck                Base.f700box
-CWFB.pinkslip54  51 Chevrolet 3100                  Base.51chevy3100
-CWFB.pinkslip55  51 Chevrolet 3100 old              Base.51chevy3100old
-CWFB.pinkslip56  72 Volkswagon Beetle               Base.72beetle
-CWFB.pinkslip57  79 Datsun 280z                     Base.79datsun280z
-CWFB.pinkslip58  80 Ford F350                       Base.80f350
-CWFB.pinkslip59  80 Ford F350 EMS                   Base.80f350ambulance
-CWFB.pinkslip60  80 Ford F350 Off                   Base.80f350offroad
-CWFB.pinkslip61  80 Ford F350 Quad                  Base.80f350quad
-CWFB.pinkslip62  83 Toyota Hilux                    Base.83hilux
-CWFB.pinkslip63  83 Toyota Hilux Off                Base.83hiluxoffroad
-CWFB.pinkslip64  86 Ford Econoline                  Base.86econoline
-CWFB.pinkslip65  86 Ford E350 EMS                   Base.86econolineambulance
-CWFB.pinkslip66  86 Ford E350 RV                    Base.86econolinerv
-CWFB.pinkslip67  87 Chevrolet C10 Off lb            Base.87c10offroadlb
-CWFB.pinkslip68  87 Chevrolet C10 Off sb            Base.87c10offroadsb
-CWFB.pinkslip69  87 Chevrolet Caprice               Base.87caprice
-CWFB.pinkslip70  87 Chevrolet Caprice PD            Base.87capricePD
-CWFB.pinkslip71  87 Chevrolet Blazer                Base.87blazeroffroad
-CWFB.pinkslip72  90 Toyota Corolla                  Base.90corolla
-CWFB.pinkslip73  90 Dodge Ram Off lb                Base.90ramoffroadlb
-CWFB.pinkslip74  90 Dodge Ram Off sb                Base.90ramoffroadsb
-CWFB.pinkslip75  91 Toyota Celica                   Base.91celica
-CWFB.pinkslip76  91 Jeep Wagoneer                   Base.91wagoneer
-CWFB.pinkslip77  92 Crown Victoria                  Base.92crownvic
-CWFB.pinkslip78  92 Crown Victoria                  Base.92crownvicPD
-CWFB.pinkslip79  92 Jeep Wrangler                   Base.92wrangler
-CWFB.pinkslip80  92 Jeep Wrangler                   Base.92wrangleroffroad
-CWFB.pinkslip81  92 Jeep Wrangler  JP Ed            Base.92wranglerjurassic
-CWFB.pinkslip82  92 Jeep Wrangler                   Base.92wranglerranger
-CWFB.pinkslip83  93 Ford Explorer                   Base.93explorer
-CWFB.pinkslip84  93 Ford Explorer JP Ed             Base.93explorerjurassic
-CWFB.pinkslip85  Chevrolet Step Van                 Base.chevystepvan
-CWFB.pinkslip86  Chevrolet SWAT Van                 Base.chevystepvanswat
-CWFB.pinkslip87  Ford F700 Propane                  Base.f700propane
-CWFB.pinkslip88  Ford 7810                          Base.tractorford7810
-CWFB.pinkslip89  64 Ford Mustang                    Base.64mustang
-CWFB.pinkslip90  Chevrolet C10 step                 Base.71chevyc10stepside
-CWFB.pinkslip91  71 Chevrolet C10 lb                Base.71chevyc10lb
-CWFB.pinkslip92  71 Chevrolet C10 sb                Base.71chevyc10sb
-CWFB.pinkslip93  91 Chevrolet S10                   Base.91chevys10
-CWFB.pinkslip94  91 Chevrolet S10                   Base.91chevys10ext
-CWFB.pinkslip95  91 Chevrolet S10 Off               Base.91chevys10offroad
-CWFB.pinkslip96  91 Chevrolet S10 Off Ext           Base.91chevys10offroadext
-CWFB.pinkslip97  93 Jeep Cherokee                   Base.93jeepcherokee
-CWFB.pinkslip98  Chevrolet Bed                      Base.Trailer51chevy
-CWFB.pinkslip99  Move Urself 7x16                   Base.Trailermovingbig
-CWFB.pinkslip100 Move Urself 5x8                    Base.Trailermovingmedium
-CWFB.pinkslip101 Fuel Trailer                       Base.Trailerfuelmedium
-CWFB.pinkslip102 Fuel Trailer (Small)               Base.Trailerfuelsmall
-CWFB.pinkslip103 Camper Trailer                     Base.Trailercamperscamp
+Item                          Name                               Vehicle
+----                          ----                               -------
+PinkSlip.85vicsed             85 Ford Crown Victoria LTD         Base.85vicsed
+PinkSlip.85vicwag             85 Ford Crown Victoria Wagon       Base.85vicwag
+PinkSlip.85vicwag2            85 Ford Crown Victoria Wagon 2     Base.85vicwag2
+PinkSlip.79brougham           79 Cadillac Brougham               Base.79brougham
+PinkSlip.volvo244             Volvo 244                          Base.volvo244
+PinkSlip.71impala             71 Chevrolet Impala                Base.71impala
+PinkSlip.91crx                91 Honda CRX                       Base.91crx
+PinkSlip.86yugo               86 Zastava Yugo                    Base.86yugo
+PinkSlip.87c10utility         87 Chevrolet C10 Utility           Base.87c10utility
+PinkSlip.87c10fire            87 Chevrolet C10 Fire              Base.87c10fire
+PinkSlip.87c10mccoy           87 Chevrolet C10 McCoy             Base.87c10mccoy
+PinkSlip.87c10lb              87 Chevrolet C10 lb                Base.87c10lb
+PinkSlip.87c10sb              87 Chevrolet C10 sb                Base.87c10sb
+PinkSlip.90ramlb              90 Dodge Ram lb                    Base.90ramlb
+PinkSlip.90ramsb              90 Dodge Ram sb                    Base.90ramsb
+PinkSlip.87blazer             87 Chevrolet Blazer                Base.87blazer
+PinkSlip.87suburban           87 Chevrolet Suburban              Base.87suburban
+PinkSlip.astrovan             Chevrolet Astro                    Base.astrovan
+PinkSlip.65gto                65 Pontiac GTO                     Base.65gto
+PinkSlip.69charger            69 Dodge Charger                   Base.69charger
+PinkSlip.69chargerdaytona     69 Dodge Charger Daytona           Base.69chargerdaytona
+PinkSlip.73falcon             73 Ford Falcon                     Base.73falcon
+PinkSlip.77transam            77 Pontiac Trans Am                Base.77transam
+PinkSlip.70chevelle           70 Chevrolet Chevelle              Base.70chevelle
+PinkSlip.70elcamino           70 Chevrolet El Camino             Base.70elcamino
+PinkSlip.68elcamino           68 Chevrolet El Camino             Base.68elcamino
+PinkSlip.68wildcat            68 Buick Wildcat                   Base.68wildcat
+PinkSlip.68wildcatconvert     68 Buick Wildcat                   Base.68wildcatconvert
+PinkSlip.73pinto              73 Ford Pinto                      Base.73pinto
+PinkSlip.moveurself           Move Urself Box Truck              Base.moveurself
+PinkSlip.isuzubox             Isuzu N5                           Base.isuzubox
+PinkSlip.isuzuboxelec         Isuzu N5 (Elec)                    Base.isuzuboxelec
+PinkSlip.isuzuboxfood         Isuzu N5 (Food)                    Base.isuzuboxfood
+PinkSlip.isuzuboxmccoy        Isuzu N5 McCoy                     Base.isuzuboxmccoy
+PinkSlip.hmmwvtr              M1069                              Base.hmmwvtr
+PinkSlip.hmmwvht              M1025                              Base.hmmwvht
+PinkSlip.m35a2bed             M35A2                              Base.m35a2bed
+PinkSlip.m35a2covered         M35A2                              Base.m35a2covered
+PinkSlip.m35a2fuel            M49A2C                             Base.m35a2fuel
+PinkSlip.m151canvas           M151A2                             Base.m151canvas
+PinkSlip.firepumper           Fire Engine                        Base.firepumper
+PinkSlip.86bounder            86 Fleetwood Bounder               Base.86bounder
+PinkSlip.91blazerpd           91 Chevrolet Blazer                Base.91blazerpd
+PinkSlip.85vicsheriff         85 Ford Crown Victoria LTD Sheriff Base.85vicsheriff
+PinkSlip.85vicranger          85 Ford Crown Victoria LTD         Base.85vicranger
+PinkSlip.pursuitspecial       Pursuit Special                    Base.pursuitspecial
+PinkSlip.generallee           The General Lee                    Base.generallee
+PinkSlip.generalmeh           The General Meh                    Base.generalmeh
+PinkSlip.schoolbus            Ford B700 School Bus               Base.schoolbus
+PinkSlip.schoolbusshort       Ford B700 School Bus Short         Base.schoolbusshort
+PinkSlip.f700dump             Ford F700 Dump Truck               Base.f700dump
+PinkSlip.f700flatbed          Ford F700 Flatbed                  Base.f700flatbed
+PinkSlip.f700box              Ford F700 Box Truck                Base.f700box
+PinkSlip.51chevy3100          51 Chevrolet 3100                  Base.51chevy3100
+PinkSlip.51chevy3100old       51 Chevrolet 3100 old              Base.51chevy3100old
+PinkSlip.72beetle             72 Volkswagon Beetle               Base.72beetle
+PinkSlip.79datsun280z         79 Datsun 280z                     Base.79datsun280z
+PinkSlip.80f350               80 Ford F350                       Base.80f350
+PinkSlip.80f350ambulance      80 Ford F350 EMS                   Base.80f350ambulance
+PinkSlip.80f350offroad        80 Ford F350 Off                   Base.80f350offroad
+PinkSlip.80f350quad           80 Ford F350 Quad                  Base.80f350quad
+PinkSlip.83hilux              83 Toyota Hilux                    Base.83hilux
+PinkSlip.83hiluxoffroad       83 Toyota Hilux Off                Base.83hiluxoffroad
+PinkSlip.86econoline          86 Ford Econoline                  Base.86econoline
+PinkSlip.86econolineambulance 86 Ford E350 EMS                   Base.86econolineambulance
+PinkSlip.86econolinerv        86 Ford E350 RV                    Base.86econolinerv
+PinkSlip.87c10offroadlb       87 Chevrolet C10 Off lb            Base.87c10offroadlb
+PinkSlip.87c10offroadsb       87 Chevrolet C10 Off sb            Base.87c10offroadsb
+PinkSlip.87caprice            87 Chevrolet Caprice               Base.87caprice
+PinkSlip.87capricePD          87 Chevrolet Caprice PD            Base.87capricePD
+PinkSlip.87blazeroffroad      87 Chevrolet Blazer                Base.87blazeroffroad
+PinkSlip.90corolla            90 Toyota Corolla                  Base.90corolla
+PinkSlip.90ramoffroadlb       90 Dodge Ram Off lb                Base.90ramoffroadlb
+PinkSlip.90ramoffroadsb       90 Dodge Ram Off sb                Base.90ramoffroadsb
+PinkSlip.91celica             91 Toyota Celica                   Base.91celica
+PinkSlip.91wagoneer           91 Jeep Wagoneer                   Base.91wagoneer
+PinkSlip.92crownvic           92 Crown Victoria                  Base.92crownvic
+PinkSlip.92crownvicPD         92 Crown Victoria                  Base.92crownvicPD
+PinkSlip.92wrangler           92 Jeep Wrangler                   Base.92wrangler
+PinkSlip.92wrangleroffroad    92 Jeep Wrangler                   Base.92wrangleroffroad
+PinkSlip.92wranglerjurassic   92 Jeep Wrangler  JP Ed            Base.92wranglerjurassic
+PinkSlip.92wranglerranger     92 Jeep Wrangler                   Base.92wranglerranger
+PinkSlip.93explorer           93 Ford Explorer                   Base.93explorer
+PinkSlip.93explorerjurassic   93 Ford Explorer JP Ed             Base.93explorerjurassic
+PinkSlip.chevystepvan         Chevrolet Step Van                 Base.chevystepvan
+PinkSlip.chevystepvanswat     Chevrolet SWAT Van                 Base.chevystepvanswat
+PinkSlip.f700propane          Ford F700 Propane                  Base.f700propane
+PinkSlip.tractorford7810      Ford 7810                          Base.tractorford7810
+PinkSlip.64mustang            64 Ford Mustang                    Base.64mustang
+PinkSlip.71chevyc10stepside   Chevrolet C10 step                 Base.71chevyc10stepside
+PinkSlip.71chevyc10lb         71 Chevrolet C10 lb                Base.71chevyc10lb
+PinkSlip.71chevyc10sb         71 Chevrolet C10 sb                Base.71chevyc10sb
+PinkSlip.91chevys10           91 Chevrolet S10                   Base.91chevys10
+PinkSlip.91chevys10ext        91 Chevrolet S10                   Base.91chevys10ext
+PinkSlip.91chevys10offroad    91 Chevrolet S10 Off               Base.91chevys10offroad
+PinkSlip.91chevys10offroadext 91 Chevrolet S10 Off Ext           Base.91chevys10offroadext
+PinkSlip.93jeepcherokee       93 Jeep Cherokee                   Base.93jeepcherokee
+PinkSlip.Trailer51chevy       Chevrolet Bed                      Base.Trailer51chevy
+PinkSlip.Trailermovingbig     Move Urself 7x16                   Base.Trailermovingbig
+PinkSlip.Trailermovingmedium  Move Urself 5x8                    Base.Trailermovingmedium
+PinkSlip.Trailerfuelmedium    Fuel Trailer                       Base.Trailerfuelmedium
+PinkSlip.Trailerfuelsmall     Fuel Trailer (Small)               Base.Trailerfuelsmall
+PinkSlip.Trailercamperscamp   Camper Trailer                     Base.Trailercamperscamp
 
 
