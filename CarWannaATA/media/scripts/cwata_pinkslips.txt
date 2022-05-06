@@ -1,0 +1,489 @@
+module PinkSlip {
+    imports
+    {
+        Base
+    }
+        
+    item ATADodge
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: 91 Dadge Steals Twin Turbo,
+        VehicleID = Base.ATADodge,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATADodgePpg
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dadge Steals RT Twin Turbo (Pace Car),
+        VehicleID = Base.ATADodgePpg,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAMustangClassic
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Fjord Mustard,
+        VehicleID = Base.ATAMustangClassic,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAMustangPolice
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Fjord Mustard (Police),
+        VehicleID = Base.ATAMustangPolice,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAJeepClassic
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Jaap Wrungel Classic,
+        VehicleID = Base.ATAJeepClassic,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAJeepRubicon
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Jaap Wrungel Rubicon,
+        VehicleID = Base.ATAJeepRubicon,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAJeepArcher
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Jaap Wrungel Archer,
+        VehicleID = Base.ATAJeepArcher,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATASchoolBus
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: School Bear Bus,
+        VehicleID = Base.ATASchoolBus,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAPrisonBus
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Prison Bear Bus,
+        VehicleID = Base.ATAPrisonBus,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAArmyBus
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Army Bear Bus,
+        VehicleID = Base.ATAArmyBus,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerFirst
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar GNV 250,
+        VehicleID = Base.TrailerFirst,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerSecond
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar GNV 500,
+        VehicleID = Base.TrailerSecond,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerHome
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar iLYA-1990,
+        VehicleID = Base.TrailerHome,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerHomeHartman
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar iLYA-1990 (Hartman),
+        VehicleID = Base.TrailerHomeHartman,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerHomeExplorer
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar iLYA-1990 (Explorer),
+        VehicleID = Base.TrailerHomeExplorer,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerKbac
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar KBAC,
+        VehicleID = Base.TrailerKbac,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerGenerator
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar GENA-220,
+        VehicleID = Base.TrailerGenerator,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item AMC_bmw_classic
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: BWM R80/7 Classic,
+        VehicleID = Base.AMC_bmw_classic,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item AMC_bmw_custom
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: BWM R80/7 Custom,
+        VehicleID = Base.AMC_bmw_custom,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item AMC_harley
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Xarley-Davitsan Sportstep '86,
+        VehicleID = Base.AMC_harley,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item AMC_quad
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Suvzuki Quadruiner,
+        VehicleID = Base.AMC_quad,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerAMCWaverunnerWithBody
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Yamama Waveruiner 650TL,
+        VehicleID = Base.TrailerAMCWaverunnerWithBody,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerWithBoatMotor
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar BT-13M Boat,
+        VehicleID = Base.TrailerWithBoatMotor,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerWithBoatSailingYacht
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Autotsar BT-13M Yacht,
+        VehicleID = Base.TrailerWithBoatSailingYacht,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAPetyarbuilt
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Petyarbuilt 379,
+        VehicleID = Base.ATAPetyarbuilt,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAPetyarbuiltSleeper
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Petyarbuilt 379 Sleeper,
+        VehicleID = Base.ATAPetyarbuiltSleeper,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATAPetyarbuiltSleeperLong
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Petyarbuilt 379 Sleeper Long,
+        VehicleID = Base.ATAPetyarbuiltSleeperLong,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerTSMega
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Petyarbuilt Mega Trailer,
+        VehicleID = Base.TrailerTSMega,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item Agrotractor
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Oleg Deere 48342,
+        VehicleID = Base.Agrotractor,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item TrailerAgroplough
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Agrotsar Plough-69,
+        VehicleID = Base.TrailerAgroplough,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item Agroseeder
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Agrotsar Seeder-2000,
+        VehicleID = Base.Agroseeder,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+    item ATA_Luton
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: MolksAgen Luton Van,
+        VehicleID = Base.ATA_Luton,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+    }
+
+
+
+}

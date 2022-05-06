@@ -1,36 +1,37 @@
 
-Item             Name                                  Vehicle                           Cost
-----             ----                                  -------                           ----
-CWATA.pinkslip1  91 Dadge Steals Twin Turbo            Base.ATADodge                       40
-CWATA.pinkslip2  Dadge Steals RT Twin Turbo (Pace Car) Base.ATADodgePpg                    60
-CWATA.pinkslip3  Fjord Mustard                         Base.ATAMustangClassic              40
-CWATA.pinkslip4  Fjord Mustard                         Base.ATAMustangPolice               60
-CWATA.pinkslip5  Jaap Wrungel Classic                  Base.ATAJeepClassic                 50
-CWATA.pinkslip6  Jaap Wrungel Rubicon                  Base.ATAJeepRubicon                 45
-CWATA.pinkslip7  Jaap Wrungel Archer                   Base.ATAJeepArcher                  55
-CWATA.pinkslip8  School Bear Bus                       Base.ATASchoolBus                   40
-CWATA.pinkslip9  Prison Bear Bus                       Base.ATAPrisonBus                   50
-CWATA.pinkslip10 Army Bear Bus                         Base.ATAArmyBus                     60
-CWATA.pinkslip11 Autotsar GNV 250                      Base.TrailerFirst                   15
-CWATA.pinkslip12 Autotsar GNV 500                      Base.TrailerSecond                  25
-CWATA.pinkslip13 Autotsar iLYA-1990                    Base.TrailerHome                    35
-CWATA.pinkslip14 Autotsar iLYA-1990 (Hartman)          Base.TrailerHomeHartman             38
-CWATA.pinkslip15 Autotsar iLYA-1990 (Explorer)         Base.TrailerHomeExplorer            38
-CWATA.pinkslip16 Autotsar KBAC                         Base.TrailerKbac                    10
-CWATA.pinkslip17 Autotsar GENA-220                     Base.TrailerGenerator               20
-CWATA.pinkslip18 BWM R80/7 Classic                     Base.AMC_bmw_classic                35
-CWATA.pinkslip19 BWM R80/7 Custom                      Base.AMC_bmw_custom                 30
-CWATA.pinkslip20 Xarley-Davitsan Sportstep '86         Base.AMC_harley                     28
-CWATA.pinkslip21 Suvzuki Quadruiner                    Base.AMC_quad                       15
-CWATA.pinkslip22 Yamama Waveruiner 650TL               Base.TrailerAMCWaverunnerWithBody   20
-CWATA.pinkslip23 Autotsar BT-13M Boat                  Base.TrailerWithBoatMotor          100
-CWATA.pinkslip24 Autotsar BT-13M Yacht                 Base.TrailerWithBoatSailingYacht   200
-CWATA.pinkslip25 Petyarbuilt 379                       Base.ATAPetyarbuilt                100
-CWATA.pinkslip26 Petyarbuilt 379 Sleeper               Base.ATAPetyarbuiltSleeper         125
-CWATA.pinkslip27 Petyarbuilt 379 Sleeper Long          Base.ATAPetyarbuiltSleeperLong     150
-CWATA.pinkslip28 Petyarbuilt Mega Trailer              Base.TrailerTSMega                 150
-CWATA.pinkslip29 Oleg Deere 48342                      Base.Agrotractor                    75
-CWATA.pinkslip30 Agrotsar Plough-69                    Base.TrailerAgroplough              50
-CWATA.pinkslip31 Agrotsar Seeder-2000                  Base.Agroseeder                     25
+Item                                  Name                                  Vehicle                           Cost
+----                                  ----                                  -------                           ----
+PinkSlip.ATADodge                     91 Dadge Steals Twin Turbo            Base.ATADodge                       40
+PinkSlip.ATADodgePpg                  Dadge Steals RT Twin Turbo (Pace Car) Base.ATADodgePpg                    60
+PinkSlip.ATAMustangClassic            Fjord Mustard                         Base.ATAMustangClassic              40
+PinkSlip.ATAMustangPolice             Fjord Mustard (Police)                Base.ATAMustangPolice               60
+PinkSlip.ATAJeepClassic               Jaap Wrungel Classic                  Base.ATAJeepClassic                 50
+PinkSlip.ATAJeepRubicon               Jaap Wrungel Rubicon                  Base.ATAJeepRubicon                 45
+PinkSlip.ATAJeepArcher                Jaap Wrungel Archer                   Base.ATAJeepArcher                  55
+PinkSlip.ATASchoolBus                 School Bear Bus                       Base.ATASchoolBus                   40
+PinkSlip.ATAPrisonBus                 Prison Bear Bus                       Base.ATAPrisonBus                   50
+PinkSlip.ATAArmyBus                   Army Bear Bus                         Base.ATAArmyBus                     60
+PinkSlip.TrailerFirst                 Autotsar GNV 250                      Base.TrailerFirst                   15
+PinkSlip.TrailerSecond                Autotsar GNV 500                      Base.TrailerSecond                  25
+PinkSlip.TrailerHome                  Autotsar iLYA-1990                    Base.TrailerHome                    35
+PinkSlip.TrailerHomeHartman           Autotsar iLYA-1990 (Hartman)          Base.TrailerHomeHartman             38
+PinkSlip.TrailerHomeExplorer          Autotsar iLYA-1990 (Explorer)         Base.TrailerHomeExplorer            38
+PinkSlip.TrailerKbac                  Autotsar KBAC                         Base.TrailerKbac                    10
+PinkSlip.TrailerGenerator             Autotsar GENA-220                     Base.TrailerGenerator               20
+PinkSlip.AMC_bmw_classic              BWM R80/7 Classic                     Base.AMC_bmw_classic                35
+PinkSlip.AMC_bmw_custom               BWM R80/7 Custom                      Base.AMC_bmw_custom                 30
+PinkSlip.AMC_harley                   Xarley-Davitsan Sportstep '86         Base.AMC_harley                     28
+PinkSlip.AMC_quad                     Suvzuki Quadruiner                    Base.AMC_quad                       15
+PinkSlip.TrailerAMCWaverunnerWithBody Yamama Waveruiner 650TL               Base.TrailerAMCWaverunnerWithBody   20
+PinkSlip.TrailerWithBoatMotor         Autotsar BT-13M Boat                  Base.TrailerWithBoatMotor          100
+PinkSlip.TrailerWithBoatSailingYacht  Autotsar BT-13M Yacht                 Base.TrailerWithBoatSailingYacht   200
+PinkSlip.ATAPetyarbuilt               Petyarbuilt 379                       Base.ATAPetyarbuilt                100
+PinkSlip.ATAPetyarbuiltSleeper        Petyarbuilt 379 Sleeper               Base.ATAPetyarbuiltSleeper         125
+PinkSlip.ATAPetyarbuiltSleeperLong    Petyarbuilt 379 Sleeper Long          Base.ATAPetyarbuiltSleeperLong     150
+PinkSlip.TrailerTSMega                Petyarbuilt Mega Trailer              Base.TrailerTSMega                 150
+PinkSlip.Agrotractor                  Oleg Deere 48342                      Base.Agrotractor                    75
+PinkSlip.TrailerAgroplough            Agrotsar Plough-69                    Base.TrailerAgroplough              50
+PinkSlip.Agroseeder                   Agrotsar Seeder-2000                  Base.Agroseeder                     25
+PinkSlip.ATA_Luton                    MolksAgen Luton Van                   Base.ATA_Luton                      45
 
 

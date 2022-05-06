@@ -1,0 +1,18 @@
+module PinkSlip
+{
+    imports
+    {
+        Base
+    }
+        
+    recipe Claim Vehicle
+    {
+       ATADodge/ATADodgePpg/ATAMustangClassic/ATAMustangPolice/ATAJeepClassic/ATAJeepRubicon/ATAJeepArcher/ATASchoolBus/ATAPrisonBus/ATAArmyBus/TrailerFirst/TrailerSecond/TrailerHome/TrailerHomeHartman/TrailerHomeExplorer/TrailerKbac/TrailerGenerator/AMC_bmw_classic/AMC_bmw_custom/AMC_harley/AMC_quad/TrailerAMCWaverunnerWithBody/TrailerWithBoatMotor/TrailerWithBoatSailingYacht/ATAPetyarbuilt/ATAPetyarbuiltSleeper/ATAPetyarbuiltSleeperLong/TrailerTSMega/Agrotractor/TrailerAgroplough/Agroseeder/ATA_Luton,
+       Result: Base.CarKey,
+       Time: 50.0,
+       OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
+       OnCreate:Recipe.OnCreate.CW_ClaimVehicle,
+       RemoveResultItem:True,
+    } 
+}
+
