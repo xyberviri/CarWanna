@@ -48,6 +48,7 @@ function Get-AutoTitle
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
 "@
@@ -165,9 +166,9 @@ foreach ($line in $input)
 }
 $titles += "`n`n}"
 
+
+
 $ClaimRecipe = Get-ClaimFunction
-
-
 $CreateRecipe = @()
 $CreateRecipe +=@"
 module $global:ModuleName {
@@ -185,6 +186,8 @@ foreach ($item in $itemNames)
 }
 $CreateRecipe += "`n`n}"
 
+
+
 #Clean up Tiles for export
 $itemNames = $itemNames|ForEach-Object {
     $_.Item = $global:ModuleName+"."+$_.Item  # replace string in a property
@@ -197,8 +200,8 @@ Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"pinkslips.txt")
 write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"pinkslips.txt"))
 
 #Recipe to Spawn Vehicle Set
-Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt")) -InputObject $ClaimRecipe -Encoding Ascii
-write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt"))
+#Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt")) -InputObject $ClaimRecipe -Encoding Ascii
+#write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt"))
 
 #Vendor Recipes for Traders
 Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"shops.txt")) -InputObject $CreateRecipe -Encoding Ascii
