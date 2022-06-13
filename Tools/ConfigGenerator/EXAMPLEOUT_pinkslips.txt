@@ -32,6 +32,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item CarLuxury
@@ -47,6 +48,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item CarNormal
@@ -62,6 +64,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item CarStationWagon
@@ -77,6 +80,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item CarStationWagon2
@@ -92,6 +96,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item CarTaxi
@@ -107,6 +112,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item CarTaxi2
@@ -122,6 +128,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item ModernCar
@@ -137,6 +144,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item ModernCar02
@@ -152,6 +160,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item ModernCar_ez
@@ -167,6 +176,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item ModernCar_Martin
@@ -182,6 +192,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item OffRoad
@@ -197,6 +208,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpTruck
@@ -212,6 +224,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpTruckLights
@@ -227,6 +240,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpTruckLightsFire
@@ -242,6 +256,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpTruckMccoy
@@ -257,6 +272,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpVan
@@ -272,6 +288,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpVanLights
@@ -287,6 +304,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpVanLightsFire
@@ -302,6 +320,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpVanLightsPolice
@@ -317,6 +336,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item PickUpVanMccoy
@@ -332,6 +352,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item SUV
@@ -347,6 +368,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item SmallCar
@@ -362,6 +384,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item SmallCar02
@@ -377,6 +400,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item SportsCar
@@ -392,6 +416,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item SportsCar_ez
@@ -407,6 +432,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item StepVan
@@ -422,6 +448,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item StepVan_Heralds
@@ -437,6 +464,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item StepVan_Scarlet
@@ -452,6 +480,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item StepVanMail
@@ -467,6 +496,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item StepVanRadio
@@ -482,6 +512,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item Trailer
@@ -497,6 +528,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item TrailerAdvert
@@ -512,6 +544,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item TrailerCover
@@ -527,6 +560,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item Van
@@ -542,6 +576,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item Van_KnoxDisti
@@ -557,6 +592,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item Van_LectroMax
@@ -572,6 +608,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item Van_MassGenFac
@@ -587,6 +624,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item Van_Transit
@@ -602,6 +640,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item VanAmbulance
@@ -617,6 +656,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item VanRadio
@@ -632,6 +672,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item VanRadio_3N
@@ -647,6 +688,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item VanSeats
@@ -662,6 +704,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item VanSpecial
@@ -677,6 +720,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
     item VanSpiffo
@@ -692,6 +736,7 @@ module PinkSlip {
         Condition = 100,
         GasTank = 100,
         HasKey = true,
+        Tags = PinkSlip,
     }
 
 
