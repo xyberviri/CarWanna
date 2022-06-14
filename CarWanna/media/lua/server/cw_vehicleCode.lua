@@ -58,6 +58,10 @@
 
 
 --]]
+function Recipe.GetItemTypes.PinkSlip(scriptItems)
+    scriptItems:addAll(getScriptManager():getItemsTag("PinkSlip"))
+end 
+    
 function Recipe.OnCanPerform.CW_ClaimVehicle(recipe, playerObj, item)
     if playerObj:isOutside() and playerObj:getZ() == 0 then
         return true
@@ -93,6 +97,7 @@ function Recipe.OnCreate.CW_ClaimVehicle(items, result, player)
 		end 
         requestedVehicle.dir = player:getDir();
         requestedVehicle.clear = true
+        requestedVehicle.battery = 1
         
         sendClientCommand(player, "CW", "spawnVehicle",  requestedVehicle ) 
     end

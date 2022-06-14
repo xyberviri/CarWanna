@@ -122,6 +122,14 @@ function Commands.spawnVehicle(player, args)
         end
     end
     
+    --Set battery charge
+    if args.battery then
+        local battery = car:getPartById("Battery")
+        if battery then
+            battery:getInventoryItem():setUsedDelta(args.battery);
+        end
+    end
+    
     --Create a key and send it to the player..
     if args.makekey then 
         local newCarKey = car:createVehicleKey()

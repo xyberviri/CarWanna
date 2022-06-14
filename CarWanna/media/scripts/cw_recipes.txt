@@ -7,7 +7,7 @@ module PinkSlip
         
     recipe Claim Vehicle
     {
-       CarLights/CarLightsPolice/CarLuxury/CarNormal/CarStationWagon/CarStationWagon2/CarTaxi/CarTaxi2/ModernCar/ModernCar02/ModernCar_ez/ModernCar_Martin/OffRoad/PickUpTruck/PickUpTruckLights/PickUpTruckLightsFire/PickUpTruckMccoy/PickUpVan/PickUpVanLights/PickUpVanLightsFire/PickUpVanLightsPolice/PickUpVanMccoy/SUV/SmallCar/SmallCar02/SportsCar/SportsCar_ez/StepVan/StepVan_Heralds/StepVan_Scarlet/StepVanMail/StepVanRadio/Trailer/TrailerAdvert/TrailerCover/Van/Van_KnoxDisti/Van_LectroMax/Van_MassGenFac/Van_Transit/VanAmbulance/VanRadio/VanRadio_3N/VanSeats/VanSpecial/VanSpiffo,
+       [Recipe.GetItemTypes.PinkSlip],
        Result: Base.CarKey,
        Time: 50.0,
        OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
