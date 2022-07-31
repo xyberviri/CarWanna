@@ -181,6 +181,7 @@ $titles += "`n`n}"
 
 $ClaimRecipe = Get-ClaimFunction
 $CreateRecipe = @()
+<#
 $CreateRecipe +=@"
 module $global:ModuleName {
     imports
@@ -189,13 +190,15 @@ module $global:ModuleName {
     }
         
 "@
+#>
 
 #Get Recipe for title set.
 foreach ($item in $itemNames)
 {
     $CreateRecipe += Get-ShopXRecipe -item ([string]::Format("{0}.{1}",$global:ModuleName,$item.Item)) -name $item.Name -price $item.Cost
 }
-$CreateRecipe += "`n`n}"
+
+#$CreateRecipe += "`n`n}"
 
 
 
@@ -216,7 +219,7 @@ write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"pink
 
 #Vendor Recipes for Traders
 Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"shops.txt")) -InputObject $CreateRecipe -Encoding Ascii
-write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"shops.txt"))
+write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"shopX.lua"))
 
 #Summary Table with items to vehicle mappings, name & price. 
 Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"summary.txt")) -InputObject $itemNames -Encoding Ascii
