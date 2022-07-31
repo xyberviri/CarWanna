@@ -7,6 +7,17 @@
 
    Pay carful Attention to the @" and "@ on lines 13 and 23 those need to be there.
 #>
+function Get-ShopXRecipe
+{
+Param ([string]$item, [string]$name, [int]$price)
+@"
+Shop.Items["$item"] = {
+    tab = Tab.Vehicles, price = $price,
+}
+
+"@
+}
+
 function Get-Recipe
 {
 Param ([string]$item, [string]$name, [int]$price=20)
@@ -182,7 +193,7 @@ module $global:ModuleName {
 #Get Recipe for title set.
 foreach ($item in $itemNames)
 {
-    $CreateRecipe += Get-Recipe -item ([string]::Format("{0}.{1}",$global:ModuleName,$item.Item)) -name $item.Name -price $item.Cost
+    $CreateRecipe += Get-ShopXRecipe -item ([string]::Format("{0}.{1}",$global:ModuleName,$item.Item)) -name $item.Name -price $item.Cost
 }
 $CreateRecipe += "`n`n}"
 
