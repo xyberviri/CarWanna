@@ -11,6 +11,7 @@ function Get-ShopXRecipe
 {
 Param ([string]$item, [string]$name, [int]$price)
 @"
+--$name
 Shop.Items["$item"] = {
     tab = Tab.Vehicles, price = $price,
 }
@@ -120,6 +121,7 @@ function GetNextID($maxSize = 5)
 
 $global:itemNames = @()
 $global:ModuleName="PinkSlip"
+$global:ShopTab="Vehicles"
 $global:optionModuleName=$false
 $global:prefix = GetNextID
 
@@ -128,27 +130,29 @@ try {
 # Get Input
 $here = (Get-Location).Path
 $input = get-content (Get-FileName($here))
+<#
 $PackModule = Read-Host -Prompt "Please enter the Module for this config set [$global:ModuleName]"
 if (-not [string]::IsNullOrWhiteSpace($PackModule))
 {
     $global:ModuleName = ‘PinkSlip’
+}
+#>
+$newprefix = Read-Host -Prompt "Enter File Prefix or hit enter to accept randomized: [$global:prefix]"
+if (-not [string]::IsNullOrWhiteSpace($newprefix))
+{
+    $global:prefix = $newprefix
+}
+
+$InputShopTab = Read-Host -Prompt "Please enter the shop tab for these vehicles (or enter to accept default) [Tab.$global:ShopTab]"
+if (-not [string]::IsNullOrWhiteSpace($InputShopTab))
+{
+    $global:ShopTab = $InputShopTab
 }
 
 $base = Read-Host "Add non 'Base.' modules to item names? [no]"
 if ($base -eq 'y' -or $base -eq 'yes')  {
     $global:optionModuleName=$true
 }
-
-
-
-
-
-$newprefix = Read-Host -Prompt "New File Prefix or randomized?: [$global:prefix]"
-if (-not [string]::IsNullOrWhiteSpace($newprefix))
-{
-    $global:prefix = $newprefix
-}
-
 
 
 
@@ -181,6 +185,9 @@ $titles += "`n`n}"
 
 $ClaimRecipe = Get-ClaimFunction
 $CreateRecipe = @()
+$CreateRecipe +=@"
+--$global:prefix
+"@
 <#
 $CreateRecipe +=@"
 module $global:ModuleName {
@@ -218,7 +225,7 @@ write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"pink
 #write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt"))
 
 #Vendor Recipes for Traders
-Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"shops.txt")) -InputObject $CreateRecipe -Encoding Ascii
+Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"shopX.lua")) -InputObject $CreateRecipe -Encoding Ascii
 write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"shopX.lua"))
 
 #Summary Table with items to vehicle mappings, name & price. 
