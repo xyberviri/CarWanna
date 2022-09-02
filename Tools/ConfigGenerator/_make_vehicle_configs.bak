@@ -7,22 +7,44 @@
 
    Pay carful Attention to the @" and "@ on lines 13 and 23 those need to be there.
 #>
+function Get-ShopXRecipe
+{
+Param ([string]$item, [string]$name, [int]$price)
+@"
+--$name
+Shop.Items["$item"] = {
+    tab = Tab.Vehicles, price = $price,
+}
+
+"@
+}
+
+function Get-Recipe
+{
+Param ([string]$item, [string]$name, [int]$price=20)
+@"
+    recipe Buy $name `$$price,000
+    {
+        Money1000=$price,
+        Result: $item,
+        Time: 100,
+        keep bm_M21,
+        Category: Repo Man,        
+        CanBeDoneFromFloor:true,
+    }
+"@
+}
 
 #Base config for carwanna to spawn in the vehicle. 
 function Get-AutoTitle
 {
-    Param ([string]$vehicleID, [string]$friendlyName, [string]$module="Base",[boolean]$blacklisted=$false)
-    $isBlacklisted=""
-    if($blacklisted)
-    {
-        $isBlacklisted = "`r`n        isBlacklisted = true,"
-    }
+    Param ([string]$vehicleID, [string]$friendlyName, [string]$module="Base")#, [int]$cost=10)
+
     $itemName = $vehicleID
     if ($module -ne "Base" -and $global:optionModuleName){
         $itemName = $module+$vehicleID 
     }
-
-    $global:itemNames += [PSCustomObject]@{Item = "$itemName"; Name = $friendlyName; Vehicle  = "$module.$vehicleID"; Spawns = (-not $blacklisted)}
+    $global:itemNames += [PSCustomObject]@{Item = "$itemName"; Name = $friendlyName; Vehicle  = "$module.$vehicleID";}# Cost=$cost;}
 
 @"
     item $itemName
@@ -38,11 +60,37 @@ function Get-AutoTitle
         Condition = 100,
         GasTank = 100,
         HasKey = true,
-        Tags = PinkSlip,$isBlacklisted
+        Tags = PinkSlip,
     }
 
 "@
 }
+
+#this is the recipe that actually spawns in the vehicle. 
+function Get-ClaimFunction
+{
+$pinkslips =($global:itemNames| Select -ExpandProperty Item) -join "/" 
+@"
+module $global:ModuleName
+{
+    imports
+    {
+        Base
+    }
+        
+    recipe Claim Vehicle
+    {
+       $pinkslips,
+       Result: Base.CarKey,
+       Time: 50.0,
+       OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
+       OnCreate:Recipe.OnCreate.CW_ClaimVehicle,
+       RemoveResultItem:True,
+    } 
+}
+
+"@
+}    
 
 
 
@@ -73,6 +121,7 @@ function GetNextID($maxSize = 5)
 
 $global:itemNames = @()
 $global:ModuleName="PinkSlip"
+$global:ShopTab="Vehicles"
 $global:optionModuleName=$false
 $global:prefix = GetNextID
 
@@ -82,15 +131,27 @@ try {
 # Get Input
 $here = (Get-Location).Path
 $input = get-content (Get-FileName($here))
-
+<#
+$PackModule = Read-Host -Prompt "Please enter the Module for this config set [$global:ModuleName]"
+if (-not [string]::IsNullOrWhiteSpace($PackModule))
+{
+    $global:ModuleName = ‘PinkSlip’
+}
+#>
 $newprefix = Read-Host -Prompt "Enter File Prefix or hit enter to accept randomized: [$global:prefix]"
 if (-not [string]::IsNullOrWhiteSpace($newprefix))
 {
     $global:prefix = $newprefix
 }
 
+$InputShopTab = Read-Host -Prompt "Please enter the shop tab for these vehicles (or enter to accept default) [Tab.$global:ShopTab]"
+if (-not [string]::IsNullOrWhiteSpace($InputShopTab))
+{
+    $global:ShopTab = $InputShopTab
+}
+
 $base = Read-Host "Add non 'Base.' modules to item names? [no]"
-if ($base -ieq 'y' -or $base -ieq 'yes')  {
+if ($base -eq 'y' -or $base -eq 'yes')  {
     $global:optionModuleName=$true
 }
 
@@ -117,14 +178,24 @@ foreach ($line in $input)
 {
     $count += 1
     $parts = $line -split ','
-
-    if($parts.Count -gt 2 -and [string]::IsNullOrWhiteSpace($parts[3]) ){
-            $parts[3] = "False"
-        }
-
-    $titles += Get-AutoTitle -module $parts[0] -vehicleID $parts[1] -friendlyName $parts[2] -blacklisted ($parts[3] -ieq "true")
+    $titles += Get-AutoTitle -vehicleID $parts[1] -friendlyName $parts[2] -cost $parts[3] -module $parts[0]
 }
 $titles += "`n`n}"
+
+<#
+
+$ClaimRecipe = Get-ClaimFunction
+$CreateRecipe = @()
+$CreateRecipe +=@"
+--$global:prefix
+"@
+
+#Get Recipe for title set.
+foreach ($item in $itemNames)
+{
+    $CreateRecipe += Get-ShopXRecipe -item ([string]::Format("{0}.{1}",$global:ModuleName,$item.Item)) -name $item.Name -price $item.Cost
+}
+#>
 
 
 #Clean up Tiles for export
@@ -138,6 +209,13 @@ $itemNames = $itemNames|ForEach-Object {
 Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"pinkslips.txt")) -InputObject $titles -Encoding Ascii
 write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"pinkslips.txt"))
 
+#Recipe to Spawn Vehicle Set
+#Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt")) -InputObject $ClaimRecipe -Encoding Ascii
+#write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"recipes.txt"))
+
+#Vendor Recipes for Traders
+#Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"shopX.lua")) -InputObject $CreateRecipe -Encoding Ascii
+#write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"shopX.lua"))
 
 #Summary Table with items to vehicle mappings, name & price. 
 Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"summary.txt")) -InputObject $itemNames -Encoding Ascii
