@@ -16,7 +16,7 @@ sendClientCommand(player, "CW", "spawnVehicle",  {type = "Base.Van", condition =
 sendClientCommand(player, "CW", "spawnVehicle",  {type = "Base.Van", condition = 100, gastank = 100, fueltank = 100, makekey = true, upgrade = true } )
 ```
 
-Alternatively You can create a vehicle item (aka pinkslip) and recipe to call the function to spawn the vehicle NO LUA required:
+Alternatively You can create a vehicle item (aka pinkslip), the recipe will automatically pick up any item with the `PinkSlip` tag:
 ```
 module PinkSlip {
     imports
@@ -55,6 +55,7 @@ Item paraments control the spawn conditions of the vehicle:
         HasKey = true,                           /*  Optional Default: false    , this is the setting if a key should be spawned */
         Upgraded = false,                        /*  Optional Default: false    , this will add parts that are not normally found on the vehicle and fully repair the vehicle if condition is not set. */
         FuelTank = 100,                          /*  Optional Default: 100      , this is for stored fuel, ie trailers, mostly Ki5.. */
+        isBlacklisted= true                    /* These items will not spawn in the loot tables when pinkslip loot is enabled. */
         
 ```
 
