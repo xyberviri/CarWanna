@@ -57,9 +57,10 @@ Item paraments control the spawn conditions of the vehicle:
         Upgraded = false,                        /*  Optional Default: false    , this will add parts that are not normally found on the vehicle and fully repair the vehicle if condition is not set. */
         FuelTank = 100,                          /*  Optional Default: 100      , this is for stored fuel, ie trailers, mostly Ki5.. */
         isBlacklisted= true                    /* These items will not spawn in the loot tables when pinkslip loot is enabled. */
+        Skin = 0                                 /* Optional This will specify which skin a vehicle spawns with, not setting this will randomize the skin */
         
 ```
 
 
-
+Naming convention for items are `VehicleName` or `VehicleName#` where the # is the skin a vehicle will spawn.  
 
