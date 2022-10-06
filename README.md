@@ -18,40 +18,31 @@ sendClientCommand(player, "CW", "spawnVehicle",  {type = "Base.Van", condition =
 
 Alternatively You can create a vehicle item (aka pinkslip) and recipe to call the function to spawn the vehicle NO LUA required:
 ```
-module CW {
-
-    item pinkslip1
-    {
-        DisplayCategory = CarWanna,
-        Weight	=	0.1,
-        Type	=	Normal,
-        DisplayName	= PinkSlip: Chevalier Nyala,
-        Icon	=	AutoTitle,
-        WorldStaticModel = CW.AutoTitle,
-        VehicleID = Base.CarLights,		
-        Condition = 100,
-        GasTank = 100,
-        HasKey = true,
-    }
-}
- 
-module CW
-{
+module PinkSlip {
     imports
     {
         Base
     }
-     
-    recipe Claim Vehicle
+        
+    item DodgeCC
     {
-       pinkslip1/pinkslip2,
-       Result: Base.CarKey,
-       Time: 50.0,
-       OnCanPerform:Recipe.OnCanPerform.CW_ClaimVehicle,
-       OnCreate:Recipe.OnCreate.CW_ClaimVehicle,
-       RemoveResultItem:True,
-    } 
-} 
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Dodge Challenger,
+        VehicleID = Base.DodgeCC,
+        Skin = 0,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+        Tags = PinkSlip,
+        isBlacklisted = true,
+    }
+
+}
 
 
 ```
