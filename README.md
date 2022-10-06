@@ -37,6 +37,7 @@ module PinkSlip {
         Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
+        FuelTank = 100,
         HasKey = true,
         Tags = PinkSlip,
         isBlacklisted = true,
