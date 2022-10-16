@@ -1,9 +1,7 @@
 module PinkSlip {
 
-    /* ^REQUIRED: MAKE SURE YOU SPECIFY A MOD ID FOR YOUR TEMPLATE
-                  THIS WILL ALLOW EVERYONE TO CREATE NON CONFLICTING PINKSLIPS
-	
-                  DO NOT USE "YOURMODID"!!!
+    /* ^REQUIRED: This needs to be PinkSlip if you want these to get added to the loot table automatically. 	
+                  DO NOT USE "YOURMODID" unless you do not want these to show up as loot!!!
 
     item pinkslip#                                /* REQUIRED: All of your pinkslips need to be unique, increment this number starting from 1      */
     {
