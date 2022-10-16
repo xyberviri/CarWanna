@@ -1,4 +1,4 @@
-module YOURMODID {
+module PinkSlip {
 
     /* ^REQUIRED: MAKE SURE YOU SPECIFY A MOD ID FOR YOUR TEMPLATE
                   THIS WILL ALLOW EVERYONE TO CREATE NON CONFLICTING PINKSLIPS
@@ -23,7 +23,7 @@ module YOURMODID {
   */  
 
 
-    item pinkslip1
+    item Van
     {
         DisplayCategory = CarWanna,
         Weight	=	0.1,
@@ -37,7 +37,7 @@ module YOURMODID {
         HasKey = true,
     }
 
-    item pinkslip2
+    item SUV
     {
         DisplayCategory = CarWanna,
         Weight	=	0.1,
@@ -51,7 +51,7 @@ module YOURMODID {
         HasKey = true,
     }
 
-    item pinkslip3
+    item Trailer
     {
         DisplayCategory = CarWanna,
         Weight	=	0.1,
@@ -63,7 +63,7 @@ module YOURMODID {
         Condition = 100,
     }
 
-    item pinkslip4
+    item TrailerCover
     {
         DisplayCategory = CarWanna,
         Weight	=	0.1,
