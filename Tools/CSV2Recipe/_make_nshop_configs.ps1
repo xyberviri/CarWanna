@@ -9,14 +9,24 @@ function Get-FileName($initialDirectory)
     $OpenFileDialog.filename
 }
 
+<#
+Shop.Items["AuthenticZClothing.Hat_CheeseHat"] = {
+    tab = Tab.Special, price = 1, specialCoin = true,
+}
+#>
 
 function Get-NShopBuyRecipe
 {
 Param ([string]$item, [string]$name, [string]$tab, [int]$price, [int]$quantity=1,[boolean]$special=$false)
 $quantity_string = ""
+$special_string = ""
 if($quantity -gt 1)
     {
         $quantity_string = " quantity = $quantity,"
+    }
+if($special)
+    {
+        $special_string = " specialCoin = true,"
     }
 if($name -ne "")
     {
@@ -27,7 +37,7 @@ if($name -ne "")
     }
 @"
 $name.Items["$item"] = {
-    tab = Tab.$tab, price = $price,$quantity_string
+    tab = Tab.$tab, price = $price,$quantity_string$special_string
 }
 
 "@
@@ -128,6 +138,7 @@ else
 write-host "Creating Buy list"
 foreach ($line in $input)
     {
+    #PinkSlip,SIXISRhinoTowTruck,SIXIS,1,1,TRUE
         $parts = $line -split ','
         if($parts.Count -gt 5 -and [string]::IsNullOrWhiteSpace($parts[5]) ){
             $parts[5] = "FALSE"
