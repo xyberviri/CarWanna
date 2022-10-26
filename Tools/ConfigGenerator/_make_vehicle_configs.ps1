@@ -11,13 +11,23 @@
 #Base config for carwanna to spawn in the vehicle. 
 function Get-AutoTitle
 {
-    Param ([string]$vehicleID, [string]$friendlyName, [string]$module="Base",[boolean]$blacklisted=$false)
+    Param ([string]$vehicleID, [string]$friendlyName, [string]$module="Base",[boolean]$blacklisted=$false,[string]$skin="")
     $isBlacklisted=""
+    $skinId=""
+
     if($blacklisted)
     {
         $isBlacklisted = "`r`n        isBlacklisted = true,"
     }
+
     $itemName = $vehicleID
+    if($skin -ne "")
+    {
+        $skinId = "`r`n        Skin = $skin,"
+        $itemName = [string]::Format("{0}{1}",$vehicleID,$skin)
+    }
+
+    
     if ($module -ne "Base" -and $global:optionModuleName){
         $itemName = $module+$vehicleID 
     }
@@ -32,11 +42,14 @@ function Get-AutoTitle
         Type    = Normal,
         Icon    = AutoTitle,
         DisplayName = PinkSlip: $friendlyName,
-        VehicleID = $module.$vehicleID,
+        VehicleID = $module.$vehicleID,$skinId
         WorldStaticModel = CW.AutoTitle,   
         Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
+        EngineQuality = 100,
         GasTank = 100,
+        TirePSI = 100,
+        Battery = 1,
         HasKey = true,
         Tags = PinkSlip,$isBlacklisted
     }
@@ -117,12 +130,16 @@ foreach ($line in $input)
 {
     $count += 1
     $parts = $line -split ','
+    $skinid = $null
 
-    if($parts.Count -gt 2 -and [string]::IsNullOrWhiteSpace($parts[3]) ){
-            $parts[3] = "False"
+    if(-not [string]::IsNullOrWhiteSpace($parts[3]) ){
+            $parts[3] = ($parts[3] -ieq "true")
+        }
+    if($parts.Count -gt 3 -and (-not [string]::IsNullOrWhiteSpace($parts[4])) ){
+            $skinid = $parts[4]
         }
 
-    $titles += Get-AutoTitle -module $parts[0] -vehicleID $parts[1] -friendlyName $parts[2] -blacklisted ($parts[3] -ieq "true")
+    $titles += Get-AutoTitle -module $parts[0] -vehicleID $parts[1] -friendlyName $parts[2] -blacklisted ($parts[3] -ieq "true") -skin $skinid
 }
 $titles += "`n`n}"
 
@@ -140,5 +157,5 @@ write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"pink
 
 
 #Summary Table with items to vehicle mappings, name & price. 
-Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"summary.txt")) -InputObject $itemNames -Encoding Ascii
-write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"summary.txt"))
+Out-File -FilePath ([string]::Format(".\{0}_{1}",$global:prefix,"PinkSlipList.txt")) -InputObject $itemNames -Encoding Ascii
+write-host "Copy located at: "([string]::Format(".\{0}_{1}",$global:prefix,"PinkSlipList.txt"))
