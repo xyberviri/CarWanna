@@ -78,27 +78,72 @@ function Recipe.OnCreate.CW_ClaimVehicle(items, result, player)
         player:getInventory():AddItem(pinkslip)
     else 
 		local modData = pinkslip:getModData()
-		local requestedVehicle = { type = modData.VehicleID }
-		
-		if (type(modData.Condition) == "number") then
-			requestedVehicle.condition = modData.Condition
-		end
-		if (type(modData.GasTank) == "number") then
-			requestedVehicle.gastank = modData.GasTank 
-		end	
-		if (type(modData.FuelTank) == "number") then
-			requestedVehicle.fueltank = modData.FuelTank
-		end		
-		if modData.HasKey then
-			requestedVehicle.makekey = true
-		end  
-		if modData.Upgraded then
-			requestedVehicle.upgrade = true
-		end 
-        requestedVehicle.dir = player:getDir();
-        requestedVehicle.clear = true
-        requestedVehicle.battery = 1
+        local requestedVehicle = { type = modData.VehicleID }
         
+        if modData.Parts then
+            --This is a player created pinkslip            
+            requestedVehicle.parts = modData.Parts
+            --cmd = "spawnDynamicVehicle"
+           -- local parts = modData.Parts
+           -- for part,partData in pairs(parts) do
+           -- pinkslipRecords = pinkslipRecords .. getText("IGUI_VehiclePart" .. part) .. " " .. tostring(partData.Condition) .. "%\n"
+           -- end            
+        else
+            --This is a premade pinkslip
+            if (type(modData.Condition) == "number") then
+                requestedVehicle.condition = modData.Condition
+            end
+            if (type(modData.GasTank) == "number") then
+                requestedVehicle.gastank = modData.GasTank 
+            end	
+            if (type(modData.TirePSI) == "number") then
+                requestedVehicle.tirepsi = modData.TirePSI 
+            end	
+            if (type(modData.OtherTank) == "number") or (type(modData.FuelTank) == "number") then
+                requestedVehicle.othertank = modData.OtherTank or modData.FuelTank
+            end
+            if (type(modData.Battery) == "number") then
+                requestedVehicle.battery = modData.Battery
+            end
+            if modData.Upgraded then
+                requestedVehicle.upgrade = true
+            end
+            --End of premade pinkslip
+        end
+        --End difference, both types of pinkslips do the same from here down.
+        if modData.ColorH and modData.ColorS and modData.ColorV then
+            requestedVehicle.color = {}
+            requestedVehicle.color.h = modData.ColorH
+            requestedVehicle.color.s = modData.ColorS
+            requestedVehicle.color.v = modData.ColorV
+        end
+        if modData.BloodF or modData.BloodB or modData.BloodL or modData.BloodR then
+            requestedVehicle.blood = {}
+            requestedVehicle.blood.f = modData.BloodF or 0
+            requestedVehicle.blood.b = modData.BloodB or 0
+            requestedVehicle.blood.l = modData.BloodL or 0
+            requestedVehicle.blood.r = modData.BloodR or 0
+        end
+        
+        if (type(modData.EngineQuality) == "number") then
+            requestedVehicle.enginequality = modData.EngineQuality
+        end
+        if modData.Rust then
+            requestedVehicle.rust = modData.Rust
+        end  
+        if modData.Skin then
+            requestedVehicle.skin = modData.Skin
+        end   
+        if modData.HasKey then
+                requestedVehicle.makekey = true
+        end
+        if modData.HotWired then
+                requestedVehicle.hotwire = true
+        end        
+        requestedVehicle.x = player:getX()
+        requestedVehicle.y = player:getY()
+        requestedVehicle.dir = player:getDir()
+        requestedVehicle.clear = true
         sendClientCommand(player, "CW", "spawnVehicle",  requestedVehicle ) 
     end
 
