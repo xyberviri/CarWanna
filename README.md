@@ -5,6 +5,10 @@ https://user-images.githubusercontent.com/1403624/162005443-c79dd891-2bb7-4220-a
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2786560561
 
+See also
+https://youtu.be/oXKdxwWSi8I
+https://www.youtube.com/watch?v=dEaTzyuOmEM
+
 
 Vehicles can be spawned directly with LUA:
 ```
