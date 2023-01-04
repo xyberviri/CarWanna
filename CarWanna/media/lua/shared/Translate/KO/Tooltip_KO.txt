@@ -1,0 +1,17 @@
+Tooltip_KO = {
+    Tooltip_ClaimOutSide = "외부와 바닥에 서있는 동안에만 사용할 수 있습니다.",
+    Tooltip_CW_Install = "누락된 부품",
+    Tooltip_CW_Repair = "손상된 부품, 최저한의 ",
+    Tooltip_CW_Inspection = "차량 검사",
+    Tooltip_CW_Pass = "통과하다",
+    Tooltip_CW_Fail = "실패",
+    Tooltip_CW_HasItems = "컨테이너의 항목",
+    Tooltip_CW_Aegis = "다른 사람에게 속한다",
+    Tooltip_CW_Key = "차량 키",
+    Tooltip_CW_KeyYes = "소유물",
+    Tooltip_CW_KeyNo  = "필요한 것",
+    Tooltip_CW_KeyHot = "핫와이어",
+    Tooltip_CW_People = "사람이 점령",
+    Tooltip_CW_BlackListed = "관리자가 차단함",
+    Tooltip_CW_AdminOverride = "관리자 재정의에 의해 허용됨!",
+}

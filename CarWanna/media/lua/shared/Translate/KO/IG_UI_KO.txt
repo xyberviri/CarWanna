@@ -1,0 +1,13 @@
+IGUI_KO =
+{
+    IGUI_ItemCat_CarWanna = "PinkSlip",
+    IGUI_CW_Confirm = "%s 를 문서로 변경?",
+    IGUI_CW_Tooltip_Vehicle = "차량: ",
+    IGUI_CW_Tooltip_Invalid = "이 아이템은 고장났습니다!",
+    IGUI_CW_Tooltip_Skin = "색상",
+    IGUI_CW_Tooltip_Key = "열쇠",
+    IGUI_CW_Tooltip_HotWired = "훔친",
+    IGUI_CW_Tooltip_EngineQuality = "엔진 품질: ",
+    IGUI_CW_Tooltip_Missing = "잃어버린 부품: ",
+    IGUI_CW_Tooltip_Broken = "깨진 부품: ",
+}

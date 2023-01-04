@@ -1,3 +1,17 @@
 Tooltip_EN = {
-	Tooltip_ClaimOutSide = "Can only be claimed outside, on the ground.",
+    Tooltip_ClaimOutSide = "Can only be claimed outside, on the ground.",
+    Tooltip_CW_Install = "Parts Missing",
+    Tooltip_CW_Repair = "Parts Damaged, min ",
+    Tooltip_CW_Inspection = "Vehicle Inspection",
+    Tooltip_CW_Pass = "Pass",    
+    Tooltip_CW_Fail = "Fail",
+    Tooltip_CW_HasItems = "Has Items",
+    Tooltip_CW_Aegis = "Owned Vehicle",
+    Tooltip_CW_Key = "Vehicle Key",
+    Tooltip_CW_KeyYes = "Have",
+    Tooltip_CW_KeyNo  = "Need",
+    Tooltip_CW_KeyHot = "HotWired",
+    Tooltip_CW_People = "Occupied",
+    Tooltip_CW_BlackListed = "Blocked by Admin",
+    Tooltip_CW_AdminOverride = "Allowed by Admin Override!",
 }

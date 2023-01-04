@@ -1,4 +1,13 @@
 IGUI_EN =
 {
-	IGUI_ItemCat_CarWanna = "PinkSlip",
+    IGUI_ItemCat_CarWanna = "PinkSlip",
+    IGUI_CW_Confirm = "Convert %s into a PinkSlip?",
+    IGUI_CW_Tooltip_Vehicle = "Vehicle: ",
+    IGUI_CW_Tooltip_Invalid = "ERROR THIS PINKSLIP IS INVALID!!!",
+    IGUI_CW_Tooltip_Skin = "Body Style",
+    IGUI_CW_Tooltip_Key = "Has Key",
+    IGUI_CW_Tooltip_HotWired = "Hotwired",
+    IGUI_CW_Tooltip_EngineQuality = "Engine Quality: ",
+    IGUI_CW_Tooltip_Missing = "Missing Parts: ",
+    IGUI_CW_Tooltip_Broken = "Broken Parts: ",
 }

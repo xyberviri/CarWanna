@@ -1,0 +1,21 @@
+module Base {
+    item AutoForm
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoForm,
+        DisplayName = TC 96-182: Vehicle Registration Form,
+        WorldStaticModel = CW.AutoForm,
+    }
+    item AutoTitle
+    {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Vehicle,
+        WorldStaticModel = CW.AutoTitle,
+        Tags = PinkSlip,
+    }
+}

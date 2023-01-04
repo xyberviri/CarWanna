@@ -1,7 +1,11 @@
 require 'Items/SuburbsDistributions'
 require 'Items/ProceduralDistributions'
+require "Items/ItemPicker"
 
-local SETTINGS               = CW.SETTINGS or {}
+CWTitleVehicle = CWTitleVehicle or {}
+CWTitleVehicle.PartWhitelist = CWTitleVehicle.PartWhitelist or {}
+CWTitleVehicle.VehicleBlacklist = CWTitleVehicle.VehicleBlacklist or {}
+
 --[[    
 local function has_value (tab, val)
   for index, value in ipairs(tab) do
@@ -13,60 +17,78 @@ local function has_value (tab, val)
 end
 ]]--
 local function CarWanna_InsertTo_ProceduralDistributions(item, weight)
-    print("CarWanna "..item..", item added to container loot. "..string.format("%f",weight))
+    print("CarWanna "..item..", item added to container loot, weight is "..string.format("%f",weight))
     table.insert(ProceduralDistributions.list["PinkSlips"].items, item)
     table.insert(ProceduralDistributions.list["PinkSlips"].items, weight)
 end
 
 local function CarWanna_InsertTo_SuburbsDistributions(item, weight)
-    print("CarWanna "..item..", item added to zed loot. "..string.format("%f",weight))
+    print("CarWanna "..item..", item added to zed loot, weight is "..string.format("%f",weight))
     table.insert(SuburbsDistributions["all"]["Outfit_Mechanic"].items, item)
     table.insert(SuburbsDistributions["all"]["Outfit_Mechanic"].items, weight)
 end
 
-local lootweights={1,5,10,20,50,100}
-local pinkslipdamagesetting = { "None","Average","Random"  }
-if (ModOptions and ModOptions.getInstance) or ( SETTINGS and SETTINGS.enabled) then	
-    if ModOptions and not SETTINGS.enabled then
-        print("CarWanna MOD OPTIONS DETECTED")							
-        ModOptions:loadFile()
-    else
-        print("CarWanna LUA OPTIONS DETECTED")
-    end
+--local lootweights={1,5,10,20,50,100}
+--local pinkslipdamagesetting = { "None","Average","Random"  }
+local OnInitGlobalModData = function(newGame)
     print( "CarWanna Options" )
-    print( "enablefoundloot = ", SETTINGS.options.enablefoundloot )
-    print( "enablezedloot   = ", SETTINGS.options.enablezedloot )
+    print( "enablefoundloot = ", SandboxVars.CarWanna.EnableFoundLoot )
+    print( "enablezedloot   = ", SandboxVars.CarWanna.EnableZedLoot )
     --print( "foundlootrarity  = ", SETTINGS.options.foundlootrarity )
-    print( "foundlootweight = ", SETTINGS.options.foundlootweight )
-    print( "zedlootrarity    = ", SETTINGS.options.zedlootrarity )
+    print( "foundlootweight = ", SandboxVars.CarWanna.FoundLootChance )
+    print( "zedlootrarity    = ", string.format("%f",SandboxVars.CarWanna.ZedLootChance) )
     --print( "pinkslipdamage  = ", SETTINGS.options.pinkslipdamage)
-    print( "user blacklist  = ", SETTINGS.options.blacklist )
-    print( "mod blacklist   = ", table.concat(SETTINGS.mod_blacklist, ", "))
+    print( "pinkslip blacklist setting  = ", SandboxVars.CarWanna.LootBlackList )
+    --print( "mod blacklist   = ", table.concat(SETTINGS.mod_blacklist, ", "))
     
-    if ( SETTINGS.options.enablefoundloot or SETTINGS.options.enablezedloot ) then
-        --SETTINGS.options.LootChance     = ( 10^SETTINGS.options.foundlootrarity / 100000 ) --1000000000 )
-        SETTINGS.options.LootWeight     = ( lootweights[SETTINGS.options.foundlootweight] or 1 )
-        SETTINGS.options.ZedLootChance  = ( 10^SETTINGS.options.zedlootrarity   / 100000 ) --1000000000 )
-        if getDebug() then
-            --print( "CarWanna calculated Found Loot Base Weight  : "..SETTINGS.options.LootChance )   --string.format("%f",SETTINGS.options.LootChance))
-            print( "CarWanna Found Loot Weight : ".. SETTINGS.options.LootWeight )
-            print( "CarWanna ZombieLoot Chance   : "..SETTINGS.options.ZedLootChance )  --string.format("%f",SETTINGS.options.ZedLootChance))
-      --      print( "CarWanna Found and Zed PinkSlip Loot Damage : "..pinkslipdamagesetting[SETTINGS.options.pinkslipdamage])
+
+    --Build Part Whitelist
+    if string.len(SandboxVars.CarWanna.PartWhiteList) > 0 then
+        local temp = string.split(SandboxVars.CarWanna.PartWhiteList, ";");     
+        for _,v in ipairs(temp) do 
+          CWTitleVehicle.PartWhitelist[v]=true
         end
+    end
+    
+     --Build Vechile Blacklist
+    if string.len(SandboxVars.CarWanna.VehicleBlacklist) > 0 then
+        local temp = string.split(SandboxVars.CarWanna.VehicleBlacklist, ";");     
+        for _,v in ipairs(temp) do 
+          CWTitleVehicle.VehicleBlacklist[v]=true
+        end
+    end
+    
+    if SandboxVars.CarWanna.NeedForm and SandboxVars.CarWanna.FormLoot then
+        local formitem = "Base.AutoForm"
+        local formchance = SandboxVars.CarWanna.FormChance or 1
+        print("Adding Base.AutoForm to loot tables at "..formchance)
+        table.insert(ProceduralDistributions.list["OfficeDesk"].items, formitem )
+        table.insert(ProceduralDistributions.list["OfficeDesk"].items, formchance )
+        table.insert(ProceduralDistributions.list["PoliceDesk"].items, formitem )
+        table.insert(ProceduralDistributions.list["PoliceDesk"].items, formchance )
+    end
+    
+    
+    
+    if ( SandboxVars.CarWanna.EnableFoundLoot or SandboxVars.CarWanna.EnableZedLoot  ) then
         --Make sure mechanic outfit exists in loot table. 
-        if SETTINGS.options.enablezedloot then
+        if SandboxVars.CarWanna.EnableZedLoot then
             SuburbsDistributions.all.Outfit_Mechanic = SuburbsDistributions.all.Outfit_Mechanic or {rolls = 1,items = {},junk= {rolls =1, items={}}}
         end
         --Add Pinkslip loot distribution list
-        if SETTINGS.options.enablefoundloot then
+        if SandboxVars.CarWanna.EnableFoundLoot then
             ProceduralDistributions.list.PinkSlips = ProceduralDistributions.list.PinkSlips or {rolls = 1,items = {},junk = {rolls = 1, items={}}}
-                local PinkSlipContainer = {name="PinkSlips", min=0, max=1, weightChance=SETTINGS.options.LootWeight}                
+                local PinkSlipContainer = {name="PinkSlips", min=0, max=1, weightChance=SandboxVars.CarWanna.FoundLootChance} --Setting this to min=1, max=1 makes these spawn almost too much.
                     table.insert(SuburbsDistributions.mechanic.crate.procList, PinkSlipContainer)
-                    table.insert(SuburbsDistributions.mechanic.metal_shelves.procList, PinkSlipContainer)                
+                    table.insert(SuburbsDistributions.mechanic.metal_shelves.procList, PinkSlipContainer)  
+                    
                     table.insert(SuburbsDistributions.pawnshop.counter.procList, PinkSlipContainer)
                     table.insert(SuburbsDistributions.pawnshop.displaycase.procList, PinkSlipContainer)
+                    
                     table.insert(SuburbsDistributions.policestorage.crate.procList, PinkSlipContainer)
                     table.insert(SuburbsDistributions.policestorage.counter.procList, PinkSlipContainer)
+                    table.insert(SuburbsDistributions.policestorage.locker.procList, PinkSlipContainer)
+                    table.insert(SuburbsDistributions.policestorage.metal_shelves.procList, PinkSlipContainer)
 
                 --table.insert(SuburbsDistributions.mechanic.wardrobe.procList, PinkSlipContainer)
                 --table.insert(SuburbsDistributions.pawnshopoffice.crate.procList, PinkSlipContainer)                
@@ -76,35 +98,13 @@ if (ModOptions and ModOptions.getInstance) or ( SETTINGS and SETTINGS.enabled) t
         
         --Build blacklist
         local blacklist = {}
-        --[[
-        --old
-        if string.len(SETTINGS.options.blacklist) > 1 then
-            blacklist = string.split(SETTINGS.options.blacklist, ";");
-        end        
-        for _,v in ipairs(SETTINGS.mod_blacklist) do 
-            table.insert(blacklist, v)
-        end
-        ]]--
-
-
-        --User Config Settings
-        if string.len(SETTINGS.options.blacklist) > 1 then
+        if string.len(SandboxVars.CarWanna.LootBlackList) > 0 then
             --SETTINGS.options.blacklist:gsub("\"", "")
-            local temp = string.split(SETTINGS.options.blacklist, ";");     
+            local temp = string.split(SandboxVars.CarWanna.LootBlackList, ";");     
             for _,v in ipairs(temp) do 
               blacklist[v]=true
             end
         end
-        --Lua Config Settings
-        for _,v in ipairs(SETTINGS.mod_blacklist) do 
-            blacklist[v]=true            
-        end
-
-
-
-
-
-
 
         local items = getAllItems()
         for i=0,items:size()-1 do
@@ -122,11 +122,11 @@ if (ModOptions and ModOptions.getInstance) or ( SETTINGS and SETTINGS.enabled) t
                     --Spawned Vehicle Exists
                         if not modData.isBlacklisted then
                         --Not on any blacklist
-                            if SETTINGS.options.enablefoundloot then
+                            if SandboxVars.CarWanna.EnableFoundLoot then
                                 CarWanna_InsertTo_ProceduralDistributions(itemname, modData.LootChance or 1) -- 100 - 0.0001
                             end
-                            if SETTINGS.options.enablezedloot then
-                                CarWanna_InsertTo_SuburbsDistributions(itemname, SETTINGS.options.ZedLootChance)
+                            if SandboxVars.CarWanna.EnableZedLoot then
+                                CarWanna_InsertTo_SuburbsDistributions(itemname, SandboxVars.CarWanna.ZedLootChance)
                             end
                         else
                             print("CarWanna "..itemname..", item is blacklisted by pinkslip.")
@@ -147,7 +147,44 @@ if (ModOptions and ModOptions.getInstance) or ( SETTINGS and SETTINGS.enabled) t
                 ]]--
             end
         end
+        
+        
     else
-        print("CarWanna All Loot Drops Options Disable.")
+        print("CarWanna pinkslip loot options are disable.")
+    end
+    
+    
+    if (SandboxVars.CarWanna.NeedForm and SandboxVars.CarWanna.FormLoot) or SandboxVars.CarWanna.EnableZedLoot or SandboxVars.CarWanna.EnableFoundLoot then
+        CWTitleVehicle.ReloadDistributionSettings()        
     end
 end
+
+CWTitleVehicle.ReloadDistributionSettings = function()
+    print("CarWanna added loot, reloading loot tables")
+        ItemPickerJava.Parse()
+end
+
+--[[
+local OnInitGlobalModData = function(newGame)
+if newGame then 
+    print("CARWANNA NEW GAME DETECTED")
+end
+print("CARWANNA Minimum Chance ",string.format("%f",SandboxVars.CarWanna.ZedLootChance))
+print("CARWANNA Need Form ",tostring(SandboxVars.CarWanna.NeedForm))
+print("CARWANNA Must have all parts ",tostring(SandboxVars.CarWanna.MustHaveAllParts))
+print("CARWANNA Minmum Condition ",tostring(SandboxVars.CarWanna.MinmumCondition))
+end
+]]--
+
+--Yeah we probably shouldn't do this, this loads a lot more than the sandbox options and this causes this event to fire off twice.
+local EarlyBootSandbox = function(newGame)
+    if not SandboxVars and not isClient() then
+        print("CarWanna Attempting to load sandbox options earlier than normal")
+            getSandboxOptions().load()
+    end
+end
+--Events.OnPreDistributionMerge.Add(EarlyBootSandbox)
+--Events.OnPostDistributionMerge.Add(OnInitGlobalModData)
+
+Events.OnInitGlobalModData.Add(OnInitGlobalModData)
+
