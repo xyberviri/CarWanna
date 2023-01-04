@@ -1,0 +1,3 @@
+ContextMenu_EN = {
+    ContextMenu_CW_CreateTitle = "Create PinkSlip",
+}
