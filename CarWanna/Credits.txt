@@ -1,0 +1,41 @@
+    CarWanna, Multiplayer car spawning library for Project Zomboid. 
+    Copyright (C) 2022  Xyberviri
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+    TLDR Version:
+    https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
+
+    Special Thanks to others that have contributed code to CarWanna.
+
+Contributors:
+	Noir#5285
+	Chuckleberry Finn 
+
+Notices: 
+    CarWanna contains code by Chuckleberry Finn's Skill Recovery Journal 
+    It has been modified to work with carwanna's player created pinkslips.
+    The original source can be found here: https://github.com/ChuckTheSheep/Skill-Recovery-Journal
+    Both CarWanna and Skill Recovery Journal are distributed under GNU gpl v3
+
+3rd Party Assets:
+
+The folowing sounds are used under the Mixkit Sound Effects Free License
+mixkit-fast-signing-with-a-pen-2370
+mixkit-signing-on-a-paper-2368
+mixkit-writing-scribble-on-paper-2369
+mixkit-writing-with-a-pen-on-paper-2367
+
+source https://mixkit.co/free-sound-effects/write/
+
