@@ -7,43 +7,43 @@
 
    Pay carful Attention to the @" and "@ on lines 13 and 23 those need to be there.
 #>
+function Get-ShopXRecipe
+{
+Param ([string]$item, [string]$name, [int]$price)
+@"
+--$name
+Shop.Items["$item"] = {
+    tab = Tab.Vehicles, price = $price,
+}
+
+"@
+}
+
+function Get-Recipe
+{
+Param ([string]$item, [string]$name, [int]$price=20)
+@"
+    recipe Buy $name `$$price,000
+    {
+        Money1000=$price,
+        Result: $item,
+        Time: 100,
+        keep bm_M21,
+        Category: Repo Man,        
+        CanBeDoneFromFloor:true,
+    }
+"@
+}
 
 #Base config for carwanna to spawn in the vehicle. 
 function Get-AutoTitle
 {
-    Param ([string]$vehicleID, [string]$friendlyName, [string]$module="Base",[boolean]$blacklisted=$false,[string]$skin="")
-    $isBlacklisted=""
-    $skinId=""
-
-    if($blacklisted)
-    {
-        $isBlacklisted = "`r`n        isBlacklisted = true,"
-    }
+    Param ([string]$vehicleID, [string]$friendlyName, [string]$module="Base")#, [int]$cost=10)
 
     $itemName = $vehicleID
-    if($skin -ne "")
-    {
-        $skinId = "`r`n        Skin = $skin,"
-        $itemName = [string]::Format("{0}{1}",$vehicleID,$skin)
-    }
-
-    
     if ($module -ne "Base" -and $global:optionModuleName){
         $itemName = $module+$vehicleID 
     }
-
-    $global:itemNames += [PSCustomObject]@{Item = "$itemName"; Name = $friendlyName; Vehicle  = "$module.$vehicleID"; Spawns = (-not $blacklisted)}
-
-@"
-    item $itemName
-    {
-        DisplayCategory = CarWanna,
-        Weight  = 0.1,
-        Type    = Normal,
-        Icon    = AutoTitle,
-        DisplayName = PinkSlip: $friendlyName,
-        VehicleID = $module.$vehicleID,$skinId
-        WorldStaticModel = CW.AutoTitle,   
         Tooltip = Tooltip_ClaimOutSide,	
         Condition = 100,
         GasTank = 100,
